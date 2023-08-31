@@ -1,0 +1,157 @@
+---
+title: "Untitled"
+format: html
+---
+# Evaluation criteria (boxes to tick)
+
+- [ ] Innovation for teaching and learning at ETH beyond the normal ongoing course development process
+- [ ] Structured didactic and conceptual project design
+- [ ] Inclusion of the student perspective in the project design and the planned project implementation
+- [ ] Ensure the flexible usability and accessibility of the new learning media and materials (e-accessibility)
+- [ ] Prospect of success based on successful delivery of the project plan (realistic implementation plan: clear and convincing project goals and project plan, necessary resources are available)
+- [ ] Sustainability / continued use of the project results beyond the end of the project (possibility follow-up projects)
+- [ ] Transferability and possible dissemination of the educational innovation to a wider audience (e.g. other universities, course or departments)
+- [ ] Project communication: Project insights will be made accessible to interested ETH lecturers.
+- [ ] Coherent evaluation plan
+- [ ] If applicable: Plan for managing personal data
+- [ ] Appropriateness of the planned costs (such as the expected efforts, expect results in relation to the number of students affected)
+- [ ] Only Focus topics: Project investigates aspects of a specific focus topi
+- [ ] Funding for summer or winter schools is only possible if new teaching concepts are tested within them. Furthermore, repeated implementation and sustainability of the concepts must be guaranteed
+
+# Project Application Innovedum
+
+- Proposalnumber: 
+- Project type: Focal Point Project
+- Focus topic: AI in Teaching and Learning
+- Start date: 2024-01-01
+- End date: 2025-06-30
+- Extended: 
+- Type of proposal
+
+# Project title
+
+- English: 
+- German: 
+
+# Institute
+
+- Institute:
+- Department:
+- Postal address
+
+# Applicants
+
+- Main applicant:
+- Project manager:
+- Project partner:
+
+# 1. Project summary
+
+## 1.1. Describe the project in 1-2 sentences (max. 400 characters; 57 to 90 words; will be published in the project database)
+
+## 1.2. Project summary (ca. 200 words; will be published in the project database).
+
+# 2. Consultation
+
+## 2.1. Student involvement: Describe whether and how students were involved in the preparation and review of this project application. How will students be involved in project implementation?
+
+## 2.2. Who advised you on your project and/or who gave you feedback on it (e.g. LET / Educational Developer(s) / department(s) / other faculty / other)?
+
+# 3. Project description
+
+## 3.1. Starting position: Describe the current situation. What didactic and disciplinary challenges does your project address?
+
+## 3.2. Project goals: List the concrete project goals.
+
+## 3.3. Project progression: Describe the progression of the project
+
+## 3.4. Timetable and milestones
+
+## 3.5. Teaching/Learning concept: Explain the didactic principles (e.g. experiences, theories and methods) which underpin your project.
+
+The project idea of using AI to help students with coding problems in R is based on the premise that novices in programming struggle to find help online, and AI tools can provide better code examples if students are taught how to use the relevant prompts. This idea is underpinned by several didactic principles, experiences, theories, and methods.
+
+1. **Co-creation and collaboration**: The concept of co-creation in AI-assisted learning involves students working together with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education[3]. The study found that the use of AI tools can serve as a resource for understanding and learning while also affecting creative processes.
+
+2. **Learning by doing**: AI tools can provide students with hands-on experiences and opportunities to learn by doing. This approach aligns with constructivist learning theories, which emphasize the importance of active engagement and problem-solving in the learning process[2].
+
+3. **Personalized learning**: AI tools can offer personalized learning experiences by adapting to individual students' needs, preferences, and learning styles. This approach is supported by the idea that learners have different ways of processing information and that tailored instruction can lead to better learning outcomes[5].
+
+4. **Scaffolding**: AI tools can provide scaffolding to support students in their learning process. Scaffolding refers to the temporary support provided to learners to help them achieve a higher level of understanding or skill. As students become more proficient, the support can be gradually removed[9].
+
+For further reading and resources, you can refer to the following:
+
+- The AI-Atlas: Didactics for Teaching AI and Machine Learning On-Site, Online, and Hybrid[1]
+- Learning theories for artificial intelligence promoting learning[2]
+- Cracking the code: Co-coding with AI in creative programming education[3]
+- Artificial intelligence in education - UNESCO[5]
+- Artificial Intelligence and the Future of Teaching and Learning[6]
+
+These resources provide insights into the didactic principles, theories, and methods that underpin the project idea of using AI to assist students with coding problems in R.
+
+Citations:
+[1] https://files.eric.ed.gov/fulltext/EJ1304059.pdf
+[2] https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.13341
+[3] https://dl.acm.org/doi/fullHtml/10.1145/3527927.3532801
+[4] https://code.org/ai
+[5] https://www.unesco.org/en/digital-education/artificial-intelligence
+[6] https://www2.ed.gov/documents/ai-report/ai-report.pdf
+[7] https://red.hypotheses.org/1935
+[8] https://medium.com/@this.shoaib/top-10-learning-resources-for-artificial-intelligence-a-comprehensive-guide-6fb72c31a921
+[9] https://www.researchgate.net/publication/273811536_The_didactic_principles_and_their_applications_in_the_didactic_activity
+[10] https://www.sciencedirect.com/science/article/pii/S2666920X20300023
+[11] https://medium.com/inspired-ideas-prek-12/a-quick-reference-guide-to-artificial-intelligence-for-teachers-8e44d6d6d1f1
+[12] https://medium.com/javarevisited/7-best-courses-to-learn-artificial-intelligence-in-2020-26d59d62f6fe
+[13] https://www.sciencedirect.com/science/article/pii/S2666920X23000103
+[14] https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
+[15] https://walker.cs.grinnell.edu/talks/ai/ai-references.html
+[16] https://hai.stanford.edu/news/ai-will-transform-teaching-and-learning-lets-get-it-right
+[17] https://arxiv.org/pdf/2009.10228.pdf
+[18] https://arxiv.org/pdf/2212.01020.pdf
+[19] https://www.frontiersin.org/articles/10.3389/feduc.2023.1161777
+[20] https://www.datacamp.com/blog/how-to-learn-ai
+[21] https://arxiv.org/pdf/2302.07427.pdf
+[22] https://www.edupij.com/index/arsiv/46/225/artificial-intelligence-and-education-a-pedagogical-challenge-for-the-21st-century
+[23] https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916
+[24] https://c3.ai/introduction-what-is-machine-learning/references/
+[25] https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence
+
+## 3.6. Target group(s)
+
+## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following:
+
+- Students
+- Faculty
+- The entire degree programme
+
+## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7).
+
+- What approaches will you use?
+- Are you planning measures for identifying interim results? If so, how will these results flow back into the project?
+
+## 3.9. Project staff: Employees or students involved in the project and their roles
+
+# 4.Sustainability and dissemination
+
+## 4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this?
+
+## 4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results?
+
+# 5. Data gathering and administration
+
+## 5.1.Will the project involve the gathering of personal data?
+
+If yes,
+
+- How will you obtain permission to collect data?
+- If you gather data, where will it be store
+
+# 6. Funding
+
+## 6.1 Personnel funds
+
+## 6.2 Consumables
+
+## 6.3. Innovedum funds per student (kFr)
+
+## 6.4.Innovedum funds applied for (kFr)

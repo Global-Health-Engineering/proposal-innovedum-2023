@@ -18,6 +18,28 @@ format: html
 - [ ] Only Focus topics: Project investigates aspects of a specific focus topi
 - [ ] Funding for summer or winter schools is only possible if new teaching concepts are tested within them. Furthermore, repeated implementation and sustainability of the concepts must be guaranteed
 
+# Blog: 10 things to consider when applying for an Innovedum project
+
+- Identify the correct grant scheme
+- State your idea clearly
+- Give us your context
+- Feature the voice of learners
+- Demonstrate that you talked to educators and didactic experts
+- Present a realistic project plan
+- Assume supportive reviewers
+- Put your didactic innovations front and center
+- Think beyond your project
+- Share your learnings
+
+https://blogs.ethz.ch/letblog/2021/09/03/10-things-to-consider-when-applying-for-an-innovedum-project/
+
+
+# Focus on Exploring AI in Academic Writing: Two innovative Innovedum projects
+
+Two AI project examples recently funded through Innovedum.
+
+https://blogs.ethz.ch/letblog/2023/09/18/focus-on-exploring-ai-in-academic-writing-two-innovative-innovedum-projects/
+
 # Project Application Innovedum
 
 - Proposalnumber: 
@@ -59,21 +81,101 @@ format: html
 
 # 3. Project description
 
-## 3.1. Starting position: Describe the current situation. What didactic and disciplinary challenges does your project address?
+## 3.1. Starting position: Describe the current situation. What didactic and disciplinary challenges does your project address? (max 250 words). Info: Show the relevance of and the need leading to the project. List (if applicable) preliminary work to remedy the situtation.
 
-## 3.2. Project goals: List the concrete project goals.
+For the first time in FS22, we taught a course that teaches engineers how to conduct a research project out of the lab, and apply open science principles and effective research data management to their data analysis lifecycle/workflows. As a foundation, the course introduces students to research design with a focus observational, descriptive studies (i.e. surveys). Students learn differences between qualitative and quantitative research methods, and are taught how to design surveys with (structured) questions.
 
-## 3.3. Project progression: Describe the progression of the project
+Students then develop their own research questions for a given topic in Zurich city (e.g. waste management), design a survey and collect their own data.  
+
+In parallel, we teach students the R statistical programming language, assuming no prior knowledge. Students further learn how to use git version control and GitHub for collaboration, task management, and research data management. All exercises are performed in Quarto documents which support literate programming and build the foundation for understand computational reproducibility. 
+
+Students use their own collected data and prepare a complete resarch project report as an output. In addition, students write 2-hour programming exam for which they can use any material they want, including the internet. 
+
+This project addresses several didactic and disciplinary opportunities & challenges for students & teachers, which arise with the availability of Large Language Models (LLMs) and tools such as ChatGPT, Perplexity, GitHub Copilot (among others). 
+
+One particular challenge is the ease with which students can auto-generate solutions to programming assessments [[@denny2023computing]]. This project will address this by making it mandatory for students to use AI for the class. A specific 3-hour module will entirely focus on introducing LLMs and prompting AI for different use cases with a focus on prompt engineering. A usage policy will be defined, which makes students aware of the limitations of LLMs, but also requires students to share links to their prompts and reflect on the usage of AI for each assessment. 
+
+A great opportunity for teaching novice programmers is the ease at which AI tools provide code examples for specific promblem statements. One of the greatest challenges for students as they are introduced to a new programming language is how to find help online using search engines. This is due to the nature how search engine results are curated (i.e. search optimisation), but also due to the nature of open source programming language which advance quickly and can provide dozens of different examples for solving a problem. This is mostly due to the fact that novices do not know what they are looking for which results in frustration and demotivation to continue learning. With the possbility to share such a discussion with a LLM via a link, a more individualized approach is available, helping teachers to better understand issues novice programmers are facing [[@kiesler2023large]].
+
+Lastly, from the lecturer's perspective, AI can be utilized to create low-stakes tests and formative assessments, enhancing retrieval practice and improving student learning. Additionally, AI can provide explanations, examples, and analogies to support students in class, further enriching the learning experience @mollick2023assigning.
+
+In addition to all the potential support that AI can provide for students and teachers in teaching programming, there the opportunity to help students develop novel research questions. They can further design surveys and come up with a set of appropriate question types and response categories (e.g. single choice categorical questions, likert scale questions).
+
+
+- Resesarch Questions
+    - How does a Large Langu†age Model like ChatGPT perform when asked to solve introductory programming tasks?
+    - To address this research question, all of Swirls tasks from R code practice areas were used as input to Perplexity (freely available), and GPT-4 (pay model) as the most recent versions of Perplexity LLM.
+
+
+
+### Outline
+
+1. Introduction
+    - The current state of introductory programming education
+    - Challenges faced by students and lecturers
+    - The potential of Large Language Models (LLMs) in addressing these challenges[1]
+2. AI as a Tutor for Students
+    - Using AI prompts for learning programming concepts
+    - Leveraging AI tools like CodeTutor and GitHub Copilot for better code examples[2][6]
+    - Overcoming the struggle of finding help online with AI assistance
+3. AI as a Tool for Lecturers
+    - Utilizing AI for creating low-stakes tests and formative assessments[4]
+    - Enhancing retrieval practice with AI-generated assessments
+    - Providing explanations, examples, and analogies using AI to support students in class[8]
+4. Conclusion
+    - The potential impact of AI integration in programming education
+    - Future directions and research in AI-assisted programming education
+    
+## 3.2. Project goals: List the concrete project goals. (250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public. 
+
+**Didactic challenge 1:** Helping students navigate the overwhelming amount of information available online and
+receive solutions to their individual problems.
+
+**Goal 1:** Use LLMs to provide code examples and support novices find answers to programming tasks.
+
+**Activity 1:** Create a collection of 60 problem statements (20 for each level of complexity: low, medium, high) for R programming tasks, along with their respective AI prompts
+
+**Activity 1.2:** Conduct a student satisfaction survey to evaluate student satisfaction and user experience of receiving AI-generated code examples. 
+
+**Objective 1.1:** Ensure that 90% of the 60 AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.
+
+**Objective 1.2:** ...
+
+
+**Activities:**
+
+- 
+
+**Goal 2:** Use LLMs to create low-stakes tests for formative assessments (faded examples, Parsons problems). Didactic challenge: Enhancing retrieval practice, improving student learning, and enriching the overall learning experience.
+
+**Goal 3:** Integrate Large Language Models (LLMs) into lectures and require it as a mandatory tool to use in class. 
+
+**Didactic Challenge:** Ensuring that students use AI responsibly and effectively, while still developing their own problem-solving and programming skills.
+
+**Goal 4:** Develop a programming exam format that allows students to use LLMs. 
+
+**Didactic Challenge**: Applying the knowledge and skills gained throughout the course to analyze data, draw conclusions, and demonstrate programming proficiency in a time-limited exam setting. 
+
+### Unsure if I should add it
+
+**Goal 5**: Develop research questions for a given topic in Zurich city (e.g., waste management) and design a survey to collect data.
+
+**Didactic Challenge**: Learning how to formulate relevant and impactful research questions, and designing effective surveys with appropriate question types and response categories.
+
+
+## 3.3. Project progression: Describe the progression of the project (300 words)
+
+
 
 ## 3.4. Timetable and milestones
 
-## 3.5. Teaching/Learning concept: Explain the didactic principles (e.g. experiences, theories and methods) which underpin your project.
+## 3.5. Teaching/Learning concept: Explain the didactic principles (e.g. experiences, theories and methods) which underpin your project. (300 words)
 
 The project idea of using AI to help students with coding problems in R is based on the premise that novices in programming struggle to find help online, and AI tools can provide better code examples if students are taught how to use the relevant prompts. This idea is underpinned by several didactic principles, experiences, theories, and methods.
 
-1. **Co-creation and collaboration**: The concept of co-creation in AI-assisted learning involves students working together with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education[3]. The study found that the use of AI tools can serve as a resource for understanding and learning while also affecting creative processes.
+1. **Co-creation and collaboration**: The concept of co-creation in AI-assisted learning involves students working together with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education [3]. The study found that the use of AI tools can serve as a resource for understanding and learning while also affecting creative processes.
 
-2. **Learning by doing**: AI tools can provide students with hands-on experiences and opportunities to learn by doing. This approach aligns with constructivist learning theories, which emphasize the importance of active engagement and problem-solving in the learning process[2].
+2. **Learning by doing**: AI tools can provide students with hands-on experiences and opportunities to learn by doing. This approach aligns with constructivist learning theories, which emphasize the importance of active engagement and problem-solving in the learning process [2].
 
 3. **Personalized learning**: AI tools can offer personalized learning experiences by adapting to individual students' needs, preferences, and learning styles. This approach is supported by the idea that learners have different ways of processing information and that tailored instruction can lead to better learning outcomes[5].
 
@@ -89,42 +191,15 @@ For further reading and resources, you can refer to the following:
 
 These resources provide insights into the didactic principles, theories, and methods that underpin the project idea of using AI to assist students with coding problems in R.
 
-Citations:
-[1] https://files.eric.ed.gov/fulltext/EJ1304059.pdf
-[2] https://bera-journals.onlinelibrary.wiley.com/doi/full/10.1111/bjet.13341
-[3] https://dl.acm.org/doi/fullHtml/10.1145/3527927.3532801
-[4] https://code.org/ai
-[5] https://www.unesco.org/en/digital-education/artificial-intelligence
-[6] https://www2.ed.gov/documents/ai-report/ai-report.pdf
-[7] https://red.hypotheses.org/1935
-[8] https://medium.com/@this.shoaib/top-10-learning-resources-for-artificial-intelligence-a-comprehensive-guide-6fb72c31a921
-[9] https://www.researchgate.net/publication/273811536_The_didactic_principles_and_their_applications_in_the_didactic_activity
-[10] https://www.sciencedirect.com/science/article/pii/S2666920X20300023
-[11] https://medium.com/inspired-ideas-prek-12/a-quick-reference-guide-to-artificial-intelligence-for-teachers-8e44d6d6d1f1
-[12] https://medium.com/javarevisited/7-best-courses-to-learn-artificial-intelligence-in-2020-26d59d62f6fe
-[13] https://www.sciencedirect.com/science/article/pii/S2666920X23000103
-[14] https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
-[15] https://walker.cs.grinnell.edu/talks/ai/ai-references.html
-[16] https://hai.stanford.edu/news/ai-will-transform-teaching-and-learning-lets-get-it-right
-[17] https://arxiv.org/pdf/2009.10228.pdf
-[18] https://arxiv.org/pdf/2212.01020.pdf
-[19] https://www.frontiersin.org/articles/10.3389/feduc.2023.1161777
-[20] https://www.datacamp.com/blog/how-to-learn-ai
-[21] https://arxiv.org/pdf/2302.07427.pdf
-[22] https://www.edupij.com/index/arsiv/46/225/artificial-intelligence-and-education-a-pedagogical-challenge-for-the-21st-century
-[23] https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916
-[24] https://c3.ai/introduction-what-is-machine-learning/references/
-[25] https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence
-
 ## 3.6. Target group(s)
 
-## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following:
+## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (250 words)
 
 - Students
 - Faculty
 - The entire degree programme
 
-## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7).
+## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)
 
 - What approaches will you use?
 - Are you planning measures for identifying interim results? If so, how will these results flow back into the project?
@@ -133,9 +208,9 @@ Citations:
 
 # 4.Sustainability and dissemination
 
-## 4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this?
+## 4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this? (300 words)
 
-## 4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results?
+## 4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results? (300 words)
 
 # 5. Data gathering and administration
 
@@ -146,6 +221,10 @@ If yes,
 - How will you obtain permission to collect data?
 - If you gather data, where will it be store
 
+## 5.2  Accessibility and e-Accessibility: How do you ensure the flexible usability and accessibility of the learning media and materials created in the project? (max ca. 300 words) 
+
+
+
 # 6. Funding
 
 ## 6.1 Personnel funds
@@ -154,4 +233,50 @@ If yes,
 
 ## 6.3. Innovedum funds per student (kFr)
 
-## 6.4.Innovedum funds applied for (kFr)
+## 6.4. Innovedum funds applied for (kFr)
+
+
+# Prompts
+
+https://www.perplexity.ai/search/9cef7861-b62c-422b-9bac-3c2125ac67b1?s=c
+
+```{r}
+# Initialize the counter
+counter <- 0
+
+# Generate the first random number
+random_number <- sample(0:100, 1)
+
+# Keep generating random numbers until 25, 50, or 75 is generated
+while (!(random_number %in% c(25, 50, 75))) {
+  random_number <- sample(0:100, 1)
+  counter <- counter + 1
+}
+
+# Display the number of attempts and the number it stopped on
+cat("It took", counter, "attempts to generate the number", random_number, ".\n")
+
+```
+
+```{r}
+
+donut_cost <- function(price, num_donuts, is_weekend) {
+  if (is_weekend) {
+    total_cost <- price * num_donuts * 2
+  } else {
+    total_cost <- price * num_donuts
+  }
+  return(total_cost)
+}
+
+library(testthat)
+
+test_that("donut_cost calculates the correct cost", {
+  expect_equal(donut_cost(1, 5, FALSE), 5)
+  expect_equal(donut_cost(2, 3, FALSE), 6)
+  expect_equal(donut_cost(1, 5, TRUE), 10)
+  expect_equal(donut_cost(2, 3, TRUE), 12)
+})
+
+```
+

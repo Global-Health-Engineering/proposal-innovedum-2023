@@ -1,6 +1,8 @@
 ---
-title: "Untitled"
+title: "Proposal"
+subtitle: "Innovedum - AI in teaching and learning"
 format: docx
+bibliography: prop-innovedum-ai.bib
 ---
 
 # Resources (not part of project proposal)
@@ -32,7 +34,7 @@ format: docx
 - Assume supportive reviewers
 - Put your didactic innovations front and center. Tick
 - Think beyond your project. TODO
-- Share your learnings. TODO
+- Share your learnings. Tick
 
 https://blogs.ethz.ch/letblog/2021/09/03/10-things-to-consider-when-applying-for-an-innovedum-project/
 
@@ -84,14 +86,15 @@ TODO: Write up at the end
 
 ## 2.1. Student involvement: Describe whether and how students were involved in the preparation and review of this project application. How will students be involved in project implementation?
 
-TODO: Write up section
+The proposal was shared with students that participated in our first class (rbtl: Research beyond the lab) in spring semester 2022 to get general feedback about elements they found difficult to understand during class. For this purpose, we also used the results of the student evaluation survey from 2022, which 13/14 students completed. 
 
-- GHE students
-- future rbtl students
+The project implementation will be in coordination and collaboration with students that participate in our class (rbtl: Research beyond the lab) in spring semester 2024. They will be directly involved in the the project implementation as they use the proposed solutions and provide interim feedback. 
 
 ## 2.2. Who advised you on your project and/or who gave you feedback on it (e.g. LET / Educational Developer(s) / department(s) / other faculty / other)?
 
-TODO: Write up at the end
+An initial project idea was shared with Daniela Eawason as a response to the announcenment of the new focal point topic. We requested to share our idea with Katrin Bentel (LET) who we have been continously been in touch about open science ideas and computational reproducibility for about 1.5 years. We then shared our proposal with Kathrin Bentel and Julia Kehl (both LET) who we met personally to discuss. Their advise was integrated into a draft proposal, which was shared once more including technical questions about the submission platform. 
+
+The draft proposal was also shared with employees of the Global Health Engineering group. Elizabeth Tilley (head of group) and Mian Zhong (Data Scientist and expert in Natural Language Processing) provided detailed feedback on the proposal. 
 
 # 3. Project description
 
@@ -99,7 +102,7 @@ TODO: Write up at the end
 
 At the Global Health Engineering group, we teach a class (rbtl: Research Beyond the Lab) on how to conduct a research project out of the lab and apply open science principles and effective research data management. Amongst other data science tools, students learn to use the R statistical programming language, for which we assume no prior knowledge.
 
-With the rise of Large Language Models (LLMs) and associated tools such classes run the risk of not providing added value to students if teachers miss out on including LLMs in their teaching. Students can now auto-generate solutions to programming assessments with high accuracy @denny2023computing. A structured, defined and open approach is needed to encourage students to use such tools responsibly while teachers can enhance the learning experience and increase their efficiency and productivity. 
+With the rise of Large Language Models (LLMs) and associated tools such classes run the risk of not providing added value to students if teachers miss out on including LLMs in their teaching. Students can now auto-generate solutions to programming assessments with high accuracy [@denny2023computing]. A structured, defined and open approach is needed to encourage students to use such tools responsibly while teachers can enhance the learning experience and increase their efficiency and productivity. 
 
 This project addresses the following didactic and disciplinary challenges in four work packages.
 
@@ -121,7 +124,7 @@ This project addresses the following didactic and disciplinary challenges in fou
 
 ## 3.2. Project goals: List the concrete project goals. (250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public. 
 
-## WP 1 - Responsible AI use
+### WP 1 - Responsible AI use
 
 **Challenge:** Ensuring that students use AI responsibly and effectively, while still developing their own problem-solving and programming skills.
 
@@ -137,10 +140,9 @@ We will teach students how to use AI tools and discuss the ethical implications 
 
 **Activity:** Require students to share links to their prompts and reflect on the usage of AI for each assessment.
 
-
 ### WP 2 - AI as a tutor / Getting help
 
-**Didactic challenge:** Helping students navigate the overwhelming amount of information available online to receive solutions to their individual coding problems from programming tasks.
+**Challenge:** Helping students navigate the overwhelming amount of information available online to receive solutions to their individual coding problems from programming tasks.
 
 LLMs have shown great potential to provide coding support from plain language descriptions. Once students know how to phrase an appropriate prompt, they will receive functional examples that are coherent. 
 
@@ -162,7 +164,7 @@ LLMs have shown great potential to provide coding support from plain language de
 
 **Challenge:** Enhancing retrieval practice, improving student learning, and enriching the learning experience in a time-constrained environment.
 
-Preparing up-to-date formative assessments and authentic examples requires much time and thought. LLMs show great potential to automate parts of this process. Additionally, AI can serve as a creative engine to prepare analogies that support students in class, further enriching the learning experience @mollick2023assigning.
+Preparing up-to-date formative assessments and authentic examples requires much time and thought. LLMs show great potential to automate parts of this process. Additionally, AI can serve as a creative engine to prepare analogies that support students in class, further enriching the learning experience [@mollick2023assigning].
 
 **Goal:** Use LLMs to create low-stakes tests for formative assessments (faded examples / scaffolding, Parsons problems, multiple choice quizzes). 
 
@@ -188,7 +190,9 @@ Preparing up-to-date formative assessments and authentic examples requires much 
 
 ### Phase 0 - prior to project funding
  
-As this project would be implemented in a class that is taught in Spring Semester 2024, it is essential to include information about the usage of AI for the class in the course catalogue. Phase 0 has already started as the correction phase for Spring Semester 2024 ends by 13.10.2023. The catalogue information needs to provide enough detail for students to be aware of the usage of AI, however, it also needs to ensure that if the project proposal is not funded, the class can go ahead as published in the course catalogue.
+We will implement this project in a class we teach in Spring Semester 2024. Therefore, it is essential to include information about the usage of AI for the class in the course catalogue. Phase 0 has already started as the correction phase for Spring Semester 2024 ends by 13.10.2023. The catalogue information needs to provide enough detail for students to be aware of the usage of AI. However, it also needs to ensure that if the project proposal is not funded, the class can go ahead as published in the course catalogue. 
+
+We are aware of several other initiatives around the use of AI in teaching and learning at ETH. In addition to communicating the project ideas with the Innovedum and LET team, we are actively reaching out to other professionals at ETH who will contribute to building a community of practice, including Manuel Sudau, Educational Developer with LET, Dennis Kochmann at D-MAVT, Christian Franck at D-ITET, Meike Akveld & Andreas Steiger at D-MATH and their product STACK, and lastly the applicants for the most recently funded Innovedum projects with a focus on exploring AI in academic writing (Lucio Isa & Melanie Paschke).
 
 ### Phase 1 - human resources and choice of AI tools
 
@@ -200,7 +204,7 @@ While the syllabus and overall objectives for each module of the class will be d
 
 ### Phase 3 - sharing and dissemination
 
-Once the class is completed, the project team will analyse and compile all material that was generated as part of the work packages. Student surveys will be analysed and results presented back to the scientific community.
+Once the class is completed, the project team will analyse and compile all material that was generated as part of the work packages. Student surveys will be analysed and results presented back to the scientific community. Details about project communication are covered in section 4.2.
 
 ### Phase 4 - integration of learning into future course material
 
@@ -214,7 +218,7 @@ TODO: Add in online form.
 
 The idea of using AI to help students with coding problems in R is based on the premise that novices in programming struggle to find help online, and AI tools can provide better code examples if students are taught how to use the relevant prompts. Several didactic theories and methods underpin this idea:
 
-1. **Co-creation and collaboration**: Co-creation in AI-assisted learning involves students working with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education [@jonsson2022cracking]. TThe study found that AI tools can facilitate understanding and learning and influence creative processes by promoting reflection and exploring alternative solutions. This aligns with the didactic theory of constructivism, which emphasizes that learners actively construct their understanding and knowledge through experiences and interactions.
+1. **Co-creation and collaboration**: Co-creation in AI-assisted learning involves students working with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education [@jonsson2022cracking]. The study found that AI tools can facilitate understanding and learning and influence creative processes by promoting reflection and exploring alternative solutions. This aligns with the didactic theory of constructivism, which emphasizes that learners actively construct their understanding and knowledge through experiences and interactions.
 
 2. **Personalized learning**: AI tools can offer personalized learning experiences by adapting to individual students' needs, preferences, and learning styles. This approach is supported by the idea that learners have different ways of processing information and that tailored instruction can lead to better learning outcomes [@kaiss2023effectiveness]. It is connected to self-determination theory, which defines three drivers of intrinsic motivation (competence, autonomy, relatedness), all positively impacted by personalized learning.
 
@@ -226,7 +230,7 @@ The idea of using AI to help students with coding problems in R is based on the 
 
 ## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.
 
-The over-arching effect of this project, above the measurable metrics and outcomes listed, is to shift the culture around AI from one of shame and secrecy to one that promotes and embraces the practical and enjoyable aspects of this emerging technology. Through this project we hope to demonstrate to educators who may still be sceptical of AI that not only does it have a place in teaching, but that it allows students and teachers to spend more time learning, discussing, and engaging, and less time searching and running failed code. 
+The over-arching effect of this project, above the measurable metrics and outcomes listed, is to shift the culture around AI from one of shame and secrecy to one that promotes and embraces the practical and enjoyable aspects of this emerging technology. Through this project, we aim to demonstrate to educators who may still be sceptical of AI that it has a place in teaching and allows students and teachers to spend more time learning, discussing, and engaging and less time searching and running failed code. 
 
 ### Students
 
@@ -246,6 +250,8 @@ The over-arching effect of this project, above the measurable metrics and outcom
 - embracing a culture of AI use
 
 ## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)
+
+TODO: Complete evaluation
 
 - What approaches will you use?
 - Are you planning measures for identifying interim results? If so, how will these results flow back into the project?
@@ -273,15 +279,19 @@ TODO
 
 ## 4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results? (300 words). Info: Interested ETH members should be able to gain insight into the project and the results. How do you ensure this?
 
-- As we work by the principles of "open by default", progress and outputs of the project will be publicised on GitHub with open and permissive licenses to maximise re-use. The course in spring term 2024 (rbtl: Research Beyond the Lab) will have it's own website with access to all course materials (slides, exercises, etc.). A project dedicated website will be developed to highlight aspects that are unique to the project itself and share a final report. This report and summaries of it will be published in the Innovedum public project database. 
+As we work by the principles of "open by default", this proposal, progress updates and project outputs are publicized on GitHub with open and permissive licenses to maximize re-use. The course in spring term 2024 (rbtl: Research Beyond the Lab) will have a public website with access to all course materials (slides, exercises, etc.). A project-dedicated website will be developed to highlight aspects unique to the project and share a final report. This report and summaries of it will be published in the Innovedum public project database. 
 
-- The project team is part of several initiatives and committees related to open science and data stewardship. We will use these established networks to take the opportunity to present about the project at minimum two hosted events (e.g. ETH Library Data Stewardship Network, Swiss Reproducibility Network Working Groups). 
+The project team is part of several initiatives and committees related to open science and data stewardship. We will use these established networks to take the opportunity to present the project at a minimum of two hosted events (e.g. ETH Library Data Stewardship Network Swiss Reproducibility Network Working Groups). 
 
-- As part of our ETH ORD-funded "openwashdata" program, we send our monthly newsletters to 110 (5% growth/week) people that are interested in the use of open science in the water, sanitation, and hygience (WASH) sector, but we will also highlight this project as it aligns with our overall mission to empower learners of all levels to engage with open science practices. This work will certainly resonate with many members of the community.
+We will share our first experiences at and contribute to the Innovation Learning & Teaching Fair 2024. Refresh Teaching is another platform and event for which we will prepare material for the greater community.
+   
+As part of our ETH ORD-funded "openwashdata" program, we send our monthly newsletters to 110 (5% growth/week) people who are interested in the use of open science in the water, sanitation, and hygiene (WASH) sector. Still, we will also highlight this project as it aligns with our overall mission to empower learners of all levels to engage with open science practices. This work will undoubtedly resonate with many members of the community.
 
-- We maintain an active GHE Linkedin account where we frequently highlight the work of our students and our teaching; we will dedicate a series of posts to this course and it’s links to the Innovedum funding
+We maintain an active GHE LinkedIn account where we frequently highlight the work of our students and our Teaching; we will dedicate a series of posts to this course and it's links to the Innovedum funding
 
-- We newly host a blog on our GHE website which is posted monthly and we will dedicate several blog posts to this work, especially once the course is finished and we have quantitative data and personal testimonials to report. 
+We newly host a blog on our GHE website with monthly posts. We will dedicate several blog posts to this work, especially once the course is finished and we have quantitative data and personal testimonials to report. 
+
+Within GHE, we recently started using the Matrix Chat protocol and Element as our primary communication tool. As ETH offers a Matrix home server, students and staff have direct login access using their ETHZ handle. However, inviting external people to so-called spaces and rooms is also possible. We have started an open room called ghe-open, to which we regularly invite people with a common interest in open science, open research data, etc. This channel can also serve as an opportunity for exchange on AI in Teaching and learning. 
 
 # 5. Data gathering and administration
 
@@ -308,5 +318,7 @@ TODO
 ## 6.4. Innovedum funds applied for (kFr)
 
 60'000.
+
+# References
 
 

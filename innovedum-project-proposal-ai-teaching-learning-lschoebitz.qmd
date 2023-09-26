@@ -186,7 +186,7 @@ Preparing up-to-date formative assessments and authentic examples requires much 
 
 **Objective 4.2:** Develop a grading rubric with clear criteria for assessing students' programming proficiency, problem-solving skills, and LLM usage. 
 
-## 3.3. Project progression: Describe the progression of the project (300 words). Info box: Describe the different phases of the project.
+## 3.3. Project progression: Describe the progression of the project (421/300 words). Info box: Describe the different phases of the project.
 
 ### Phase 0 - prior to project funding
  
@@ -214,7 +214,7 @@ As a final phase, the learnings from the project will be integrated into materia
 
 TODO: Add in online form.
 
-## 3.5. Teaching/Learning concept: Explain the didactic principles (e.g. experiences, theories and methods) which underpin your project. (300 words). Explain the didactic methodology that underpins the project. This can be your own experience (of that of other lectures) of didactic theories and methods from the literature. 
+## 3.5. Teaching/Learning concept: Explain the didactic principles (e.g. experiences, theories and methods) which underpin your project. (279/300 words). Explain the didactic methodology that underpins the project. This can be your own experience (of that of other lectures) of didactic theories and methods from the literature. 
 
 The idea of using AI to help students with coding problems in R is based on the premise that novices in programming struggle to find help online, and AI tools can provide better code examples if students are taught how to use the relevant prompts. Several didactic theories and methods underpin this idea:
 
@@ -228,31 +228,34 @@ The idea of using AI to help students with coding problems in R is based on the 
 
 - done in online form 
 
-## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.
+## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (167/250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.
 
-The over-arching effect of this project, above the measurable metrics and outcomes listed, is to shift the culture around AI from one of shame and secrecy to one that promotes and embraces the practical and enjoyable aspects of this emerging technology. Through this project, we aim to demonstrate to educators who may still be sceptical of AI that it has a place in teaching and allows students and teachers to spend more time learning, discussing, and engaging and less time searching and running failed code. 
+Above the measurable objectives, the over-arching effect of this project is to shift the culture around AI from shame and secrecy to one that promotes and embraces the practical and enjoyable aspects of this emerging technology. Through this project, we demonstrate to educators who may still be sceptical of AI that it has a place in teaching and allows students and teachers to spend more time learning, discussing, and engaging and less time searching and running failed code. 
 
 ### Students
 
 - being aware of the limitations of using AI
-- being aware of the responsibility for using AI and critically evaluate all it's output
+- being aware of the responsibility for using AI and critically evaluating all its output
 - learning how to use AI for learning a new programming language
 - learning how to use AI for debugging code
 
 ### Faculty
 
-- learning how to use AI for delivering more engaging classes
+- learning how to use AI to deliver more engaging classes
 - demonstrating the time-saving benefits related to assignment and exam preparation
 
 ### The entire degree programme
 
 - learning how to use AI
 - embracing a culture of AI use
+- belonging to a community of practice for use of AI in teaching and learning
+
 
 ## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)
 
-TODO: Complete evaluation
+To check the achievement of project goals and related objectives, we will work with Nore Dietmann from LET to support us in developing a student evaluation survey that explicitly targets WP1 Responsible AI use, and WP2 AI as a tutor. One survey will be implemented after teaching a specific 3-hour AI module. Another survey at the end of the course, and finally a follow-up survey 6 months after course completion. In combindation, these three surveys will help identify student satisfaction, improve course material, but also ensure that the expected innovate effects are taking place.  
 
+The specific evaluation of each objective is shown in Table X. 
 - What approaches will you use?
 - Are you planning measures for identifying interim results? If so, how will these results flow back into the project?
 
@@ -263,7 +266,6 @@ Objective 2: (Ensure that 90% of AI-generated code examples and solutions are ac
 Objective 3: (Reduce required time for generating formative assessments for R programming concepts by 90%) will be evaluated by manually writing a selection of assessments and comparing the times required to those assessments generated by AI.
 
 Objective 4.1: (Create a set of 10 - 15 exam questions that cover a range of R programming concepts, techniques, and LLM applications, ensuring that at least 80% of the course material is represented in the questions) will be evaluated by 
-
 Objective 4.2: (Develop a grading rubric with clear criteria for assessing students’ programming proficiency, problem-solving skills, and LLM usage) will be evaluated both by asking students to provide detailed feedback on the rubric as well as using the graded exams to identify which rubrics need refinement. 
 
 ## 3.9. Project staff: Employees or students involved in the project and their roles
@@ -273,14 +275,19 @@ Objective 4.2: (Develop a grading rubric with clear criteria for assessing stude
 
 # 4.Sustainability and dissemination
 
-## 4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this? (300 words)
+## 4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this? (265/300 words)
 
-TODO
+During the funding period, the project will be implemented twice within the same class (rbtl-fs-24: research beyond the lab). Once as a pilot phase evaluated in collaboration with LET. For this, we will work with Nora Dietmann, who will support us in developing a student evaluation survey that explicitly targets the project's objectives. The evaluation results will feed back into re-development course material, implemented once again with our rbtl-fs-25 cohort of students.
+
+We will actively communicate project progress and results at ETH and beyond using several media types and fora (see Section 4.2 Project communication). The project material is published as Open Educational Material with permissive licenses and in an adaptable and reusable format (see Section 4.2 Project Communication & Section 5.2 Accessibility and e-Accessibility). 
+
+This project will last 18 months, and we hope to apply for another Innovedum focal point project on March 1st 2025, which ensures the mid-term continuation of the project for another 18 months from July 2025 to December 2025. The objectives of this second round of funding will primarily focus on rolling out developed modules with identified partners at ETH (e.g., the Computational Competencies initiative, Data Stewardship Network). 
+
+Beyond these three years, utilisation of project results and long-term maintenance is ensured by the fact that the project lead, Lars Schöbitz, holds a permanent contract at the Global Health Engineering research group at D-MAVT. He is not a researcher but holds the position of an administrative technical assistant (Open Science Specialist & Data Steward). The research group is vested in the long-term continuation and scale-up of courses related to this project.
 
 ## 4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results? (300 words). Info: Interested ETH members should be able to gain insight into the project and the results. How do you ensure this?
 
 As we work by the principles of "open by default", this proposal, progress updates and project outputs are publicized on GitHub with open and permissive licenses to maximize re-use. The course in spring term 2024 (rbtl: Research Beyond the Lab) will have a public website with access to all course materials (slides, exercises, etc.). A project-dedicated website will be developed to highlight aspects unique to the project and share a final report. This report and summaries of it will be published in the Innovedum public project database. 
-
 The project team is part of several initiatives and committees related to open science and data stewardship. We will use these established networks to take the opportunity to present the project at a minimum of two hosted events (e.g. ETH Library Data Stewardship Network Swiss Reproducibility Network Working Groups). 
 
 We will share our first experiences at and contribute to the Innovation Learning & Teaching Fair 2024. Refresh Teaching is another platform and event for which we will prepare material for the greater community.
@@ -300,12 +307,12 @@ Within GHE, we recently started using the Matrix Chat protocol and Element as ou
 No
 
 
-## 5.2  Accessibility and e-Accessibility: How do you ensure the flexible usability and accessibility of the learning media and materials created in the project? (max ca. 300 words) 
+## 5.2  Accessibility and e-Accessibility: How do you ensure the flexible usability and accessibility of the learning media and materials created in the project? (max ca. 265/300 words) 
 
-TODO
+As open science advocates, we will publish all learning media and materials as open educational resources. These play a vital role in ensuring flexible usability and accessibility, allowing for the customization and adaptation of content to suit various teaching styles and students' preferences. For instance, our public course website is developed with Quarto open-source scientific and technical publishing system. The underlying code is hosted as a GitHub repository using permissive licenses for all material (e.g. CC-BY-40, MIT License), offering educators a platform to access, modify, share and contribute to educational materials.
 
-- teaching material is machine-readible and public
-- using tools to increase e-accessibility for contrast, e-readers, etc.
+We will address all essential e-Accessibility features in our learning materials. (1) Flexible Output: our course website and hosted material are available in HTML file format, allowing for customization of materials in a variety of ways, responsive design, and custom styles. (2) Flexible input: ensured by our course website, all content can be reached using the computer mouse and keyboard. (3) Information & Semantics: Our website will not contain scripted interactive components but will be provided in native HTML and hosted as a static website, ensuring the correct interpretation of content by screen readers. (4) Images and Multimedia: Every used image, prepared diagram, or visualization will be prepared using the alternative text attribute in HTML. We will use decision-making support, such as the Alt-text-Decision-Tree of the Web Accessibility Initiative (WAI), to assess whether the provided text is meaningful and purposeful. We will contact experts at ETH (Anton Bolfing) to check the correctness of alternative texts. (5) Colours and Contrast: We use colorblind-friendly colour palettes in our design andtools to ensure high contrast (e.g. colourcontrast.cc). 
+
 
 # 6. Funding
 

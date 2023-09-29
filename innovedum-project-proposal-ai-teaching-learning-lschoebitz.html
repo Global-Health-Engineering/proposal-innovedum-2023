@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.217">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Lars Schöbitz">
+<meta name="dcterms.date" content="2023-09-29">
+
+<title>Innovedum proposal: AI in teaching and learning</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/clipboard/clipboard.min.js"></script>
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/quarto.js"></script>
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/popper.min.js"></script>
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/anchor.min.js"></script>
+<link href="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="innovedum-project-proposal-ai-teaching-learning-lschoebitz_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#project-application-innovedum" id="toc-project-application-innovedum" class="nav-link active" data-scroll-target="#project-application-innovedum">Project Application Innovedum</a></li>
+  <li><a href="#project-title" id="toc-project-title" class="nav-link" data-scroll-target="#project-title">Project title</a></li>
+  <li><a href="#institute" id="toc-institute" class="nav-link" data-scroll-target="#institute">Institute</a></li>
+  <li><a href="#applicants" id="toc-applicants" class="nav-link" data-scroll-target="#applicants">Applicants</a></li>
+  <li><a href="#project-summary" id="toc-project-summary" class="nav-link" data-scroll-target="#project-summary">1. Project summary</a>
+  <ul class="collapse">
+  <li><a href="#describe-the-project-in-1-2-sentences-max.-400-characters-57-to-90-words-will-be-published-in-the-project-database" id="toc-describe-the-project-in-1-2-sentences-max.-400-characters-57-to-90-words-will-be-published-in-the-project-database" class="nav-link" data-scroll-target="#describe-the-project-in-1-2-sentences-max.-400-characters-57-to-90-words-will-be-published-in-the-project-database">1.1. Describe the project in 1-2 sentences (max. 400 characters; 57 to 90 words; will be published in the project database)</a>
+  <ul class="collapse">
+  <li><a href="#english" id="toc-english" class="nav-link" data-scroll-target="#english">English</a></li>
+  <li><a href="#german" id="toc-german" class="nav-link" data-scroll-target="#german">German</a></li>
+  </ul></li>
+  <li><a href="#project-summary-ca.-140200-words-will-be-published-in-the-project-database." id="toc-project-summary-ca.-140200-words-will-be-published-in-the-project-database." class="nav-link" data-scroll-target="#project-summary-ca.-140200-words-will-be-published-in-the-project-database.">1.2. Project summary (ca. 140/200 words; will be published in the project database).</a>
+  <ul class="collapse">
+  <li><a href="#english-1" id="toc-english-1" class="nav-link" data-scroll-target="#english-1">English</a></li>
+  <li><a href="#german-1" id="toc-german-1" class="nav-link" data-scroll-target="#german-1">German</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#consultation" id="toc-consultation" class="nav-link" data-scroll-target="#consultation">2. Consultation</a>
+  <ul class="collapse">
+  <li><a href="#student-involvement-describe-whether-and-how-students-were-involved-in-the-preparation-and-review-of-this-project-application.-how-will-students-be-involved-in-project-implementation" id="toc-student-involvement-describe-whether-and-how-students-were-involved-in-the-preparation-and-review-of-this-project-application.-how-will-students-be-involved-in-project-implementation" class="nav-link" data-scroll-target="#student-involvement-describe-whether-and-how-students-were-involved-in-the-preparation-and-review-of-this-project-application.-how-will-students-be-involved-in-project-implementation">2.1. Student involvement: Describe whether and how students were involved in the preparation and review of this project application. How will students be involved in project implementation?</a></li>
+  <li><a href="#who-advised-you-on-your-project-andor-who-gave-you-feedback-on-it-e.g.-let-educational-developers-departments-other-faculty-other" id="toc-who-advised-you-on-your-project-andor-who-gave-you-feedback-on-it-e.g.-let-educational-developers-departments-other-faculty-other" class="nav-link" data-scroll-target="#who-advised-you-on-your-project-andor-who-gave-you-feedback-on-it-e.g.-let-educational-developers-departments-other-faculty-other">2.2. Who advised you on your project and/or who gave you feedback on it (e.g.&nbsp;LET / Educational Developer(s) / department(s) / other faculty / other)?</a></li>
+  </ul></li>
+  <li><a href="#project-description" id="toc-project-description" class="nav-link" data-scroll-target="#project-description">3. Project description</a>
+  <ul class="collapse">
+  <li><a href="#starting-position-describe-the-current-situation.-what-didactic-and-disciplinary-challenges-does-your-project-address-max-324250-words.-info-show-the-relevance-of-and-the-need-leading-to-the-project.-list-if-applicable-preliminary-work-to-remedy-the-situation." id="toc-starting-position-describe-the-current-situation.-what-didactic-and-disciplinary-challenges-does-your-project-address-max-324250-words.-info-show-the-relevance-of-and-the-need-leading-to-the-project.-list-if-applicable-preliminary-work-to-remedy-the-situation." class="nav-link" data-scroll-target="#starting-position-describe-the-current-situation.-what-didactic-and-disciplinary-challenges-does-your-project-address-max-324250-words.-info-show-the-relevance-of-and-the-need-leading-to-the-project.-list-if-applicable-preliminary-work-to-remedy-the-situation.">3.1. Starting position: Describe the current situation. What didactic and disciplinary challenges does your project address? (max 324/250 words). Info: Show the relevance of and the need leading to the project. List (if applicable) preliminary work to remedy the situation.</a></li>
+  <li><a href="#project-goals-list-the-concrete-project-goals.-232250-words.-info-3-to-5-clear-measurable-objectives.-please-fill-the-fields-in-german-and-english.-the-information-will-be-published-in-innovedum-public." id="toc-project-goals-list-the-concrete-project-goals.-232250-words.-info-3-to-5-clear-measurable-objectives.-please-fill-the-fields-in-german-and-english.-the-information-will-be-published-in-innovedum-public." class="nav-link" data-scroll-target="#project-goals-list-the-concrete-project-goals.-232250-words.-info-3-to-5-clear-measurable-objectives.-please-fill-the-fields-in-german-and-english.-the-information-will-be-published-in-innovedum-public.">3.2. Project goals: List the concrete project goals. (232/250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public.</a>
+  <ul class="collapse">
+  <li><a href="#wp1---responsible-ai-use" id="toc-wp1---responsible-ai-use" class="nav-link" data-scroll-target="#wp1---responsible-ai-use">WP1 - Responsible AI use</a></li>
+  <li><a href="#wp2---ai-as-a-tutor" id="toc-wp2---ai-as-a-tutor" class="nav-link" data-scroll-target="#wp2---ai-as-a-tutor">WP2 - AI as a Tutor</a></li>
+  <li><a href="#wp3---enhance-learning" id="toc-wp3---enhance-learning" class="nav-link" data-scroll-target="#wp3---enhance-learning">WP3 - Enhance Learning</a></li>
+  <li><a href="#wp4---student-assesment" id="toc-wp4---student-assesment" class="nav-link" data-scroll-target="#wp4---student-assesment">WP4 - Student Assesment</a></li>
+  </ul></li>
+  <li><a href="#project-progression-describe-the-progression-of-the-project-288300-words.-info-box-describe-the-different-phases-of-the-project." id="toc-project-progression-describe-the-progression-of-the-project-288300-words.-info-box-describe-the-different-phases-of-the-project." class="nav-link" data-scroll-target="#project-progression-describe-the-progression-of-the-project-288300-words.-info-box-describe-the-different-phases-of-the-project.">3.3. Project progression: Describe the progression of the project (288/300 words). Info box: Describe the different phases of the project.</a>
+  <ul class="collapse">
+  <li><a href="#phase-0---before-project-funding" id="toc-phase-0---before-project-funding" class="nav-link" data-scroll-target="#phase-0---before-project-funding">Phase 0 - before project funding</a></li>
+  <li><a href="#phase-1---human-resources-and-choice-of-ai-tools" id="toc-phase-1---human-resources-and-choice-of-ai-tools" class="nav-link" data-scroll-target="#phase-1---human-resources-and-choice-of-ai-tools">Phase 1 - human resources and choice of AI tools</a></li>
+  <li><a href="#phase-2---development-of-course-material" id="toc-phase-2---development-of-course-material" class="nav-link" data-scroll-target="#phase-2---development-of-course-material">Phase 2 - development of course material</a></li>
+  <li><a href="#phase-3---evaluation-and-dissemination" id="toc-phase-3---evaluation-and-dissemination" class="nav-link" data-scroll-target="#phase-3---evaluation-and-dissemination">Phase 3 - evaluation and dissemination</a></li>
+  <li><a href="#phase-4---integration-of-learning-into-future-course-material" id="toc-phase-4---integration-of-learning-into-future-course-material" class="nav-link" data-scroll-target="#phase-4---integration-of-learning-into-future-course-material">Phase 4 - integration of learning into future course material</a></li>
+  </ul></li>
+  <li><a href="#timetable-and-milestones" id="toc-timetable-and-milestones" class="nav-link" data-scroll-target="#timetable-and-milestones">3.4. Timetable and milestones</a></li>
+  <li><a href="#teachinglearning-concept-explain-the-didactic-principles-e.g.-experiences-theories-and-methods-which-underpin-your-project.-279300-words.-explain-the-didactic-methodology-that-underpins-the-project.-this-can-be-your-own-experience-of-that-of-other-lectures-of-didactic-theories-and-methods-from-the-literature." id="toc-teachinglearning-concept-explain-the-didactic-principles-e.g.-experiences-theories-and-methods-which-underpin-your-project.-279300-words.-explain-the-didactic-methodology-that-underpins-the-project.-this-can-be-your-own-experience-of-that-of-other-lectures-of-didactic-theories-and-methods-from-the-literature." class="nav-link" data-scroll-target="#teachinglearning-concept-explain-the-didactic-principles-e.g.-experiences-theories-and-methods-which-underpin-your-project.-279300-words.-explain-the-didactic-methodology-that-underpins-the-project.-this-can-be-your-own-experience-of-that-of-other-lectures-of-didactic-theories-and-methods-from-the-literature.">3.5. Teaching/Learning concept: Explain the didactic principles (e.g.&nbsp;experiences, theories and methods) which underpin your project. (279/300 words). Explain the didactic methodology that underpins the project. This can be your own experience (of that of other lectures) of didactic theories and methods from the literature.</a></li>
+  <li><a href="#target-groups" id="toc-target-groups" class="nav-link" data-scroll-target="#target-groups">3.6. Target group(s)</a></li>
+  <li><a href="#effects-of-the-project-describe-the-innovative-aspects-of-your-project-and-describe-its-expected-effects-and-added-value-for-teaching-and-learning-at-eth-for-all-of-the-following-167250-words.-these-aspects-should-be-different-from-the-normal-advancement-of-teaching.-further-benefits-and-effects-can-also-be-listed-here." id="toc-effects-of-the-project-describe-the-innovative-aspects-of-your-project-and-describe-its-expected-effects-and-added-value-for-teaching-and-learning-at-eth-for-all-of-the-following-167250-words.-these-aspects-should-be-different-from-the-normal-advancement-of-teaching.-further-benefits-and-effects-can-also-be-listed-here." class="nav-link" data-scroll-target="#effects-of-the-project-describe-the-innovative-aspects-of-your-project-and-describe-its-expected-effects-and-added-value-for-teaching-and-learning-at-eth-for-all-of-the-following-167250-words.-these-aspects-should-be-different-from-the-normal-advancement-of-teaching.-further-benefits-and-effects-can-also-be-listed-here.">3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (167/250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.</a>
+  <ul class="collapse">
+  <li><a href="#students" id="toc-students" class="nav-link" data-scroll-target="#students">Students</a></li>
+  <li><a href="#faculty" id="toc-faculty" class="nav-link" data-scroll-target="#faculty">Faculty</a></li>
+  <li><a href="#the-entire-degree-programme" id="toc-the-entire-degree-programme" class="nav-link" data-scroll-target="#the-entire-degree-programme">The entire degree programme</a></li>
+  </ul></li>
+  <li><a href="#evaluation-strategy-describe-the-evaluation-strategy-you-will-use-to-check-achievement-of-project-goals-see-3.2-and-effects-on-teaching-see-3.7.-250-words" id="toc-evaluation-strategy-describe-the-evaluation-strategy-you-will-use-to-check-achievement-of-project-goals-see-3.2-and-effects-on-teaching-see-3.7.-250-words" class="nav-link" data-scroll-target="#evaluation-strategy-describe-the-evaluation-strategy-you-will-use-to-check-achievement-of-project-goals-see-3.2-and-effects-on-teaching-see-3.7.-250-words">3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)</a></li>
+  <li><a href="#project-staff-employees-or-students-involved-in-the-project-and-their-roles" id="toc-project-staff-employees-or-students-involved-in-the-project-and-their-roles" class="nav-link" data-scroll-target="#project-staff-employees-or-students-involved-in-the-project-and-their-roles">3.9. Project staff: Employees or students involved in the project and their roles</a></li>
+  </ul></li>
+  <li><a href="#sustainability-and-dissemination" id="toc-sustainability-and-dissemination" class="nav-link" data-scroll-target="#sustainability-and-dissemination">4.Sustainability and dissemination</a>
+  <ul class="collapse">
+  <li><a href="#sustainability-how-will-project-results-be-maintained-and-utilised-after-the-funding-period-what-project-results-can-prospectively-be-utilised-within-eth-do-you-need-additional-funding-for-this-265300-words" id="toc-sustainability-how-will-project-results-be-maintained-and-utilised-after-the-funding-period-what-project-results-can-prospectively-be-utilised-within-eth-do-you-need-additional-funding-for-this-265300-words" class="nav-link" data-scroll-target="#sustainability-how-will-project-results-be-maintained-and-utilised-after-the-funding-period-what-project-results-can-prospectively-be-utilised-within-eth-do-you-need-additional-funding-for-this-265300-words">4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this? (265/300 words)</a></li>
+  <li><a href="#project-communication-how-do-you-plan-to-publicise-and-document-the-progress-of-the-project-what-form-will-the-final-report-for-the-innovedum-project-database-take-how-will-you-disseminate-project-results-308300-words.-info-interested-eth-members-should-be-able-to-gain-insight-into-the-project-and-the-results.-how-do-you-ensure-this" id="toc-project-communication-how-do-you-plan-to-publicise-and-document-the-progress-of-the-project-what-form-will-the-final-report-for-the-innovedum-project-database-take-how-will-you-disseminate-project-results-308300-words.-info-interested-eth-members-should-be-able-to-gain-insight-into-the-project-and-the-results.-how-do-you-ensure-this" class="nav-link" data-scroll-target="#project-communication-how-do-you-plan-to-publicise-and-document-the-progress-of-the-project-what-form-will-the-final-report-for-the-innovedum-project-database-take-how-will-you-disseminate-project-results-308300-words.-info-interested-eth-members-should-be-able-to-gain-insight-into-the-project-and-the-results.-how-do-you-ensure-this">4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results? (308/300 words). Info: Interested ETH members should be able to gain insight into the project and the results. How do you ensure this?</a></li>
+  </ul></li>
+  <li><a href="#data-gathering-and-administration" id="toc-data-gathering-and-administration" class="nav-link" data-scroll-target="#data-gathering-and-administration">5. Data gathering and administration</a>
+  <ul class="collapse">
+  <li><a href="#will-the-project-involve-the-gathering-of-personal-data" id="toc-will-the-project-involve-the-gathering-of-personal-data" class="nav-link" data-scroll-target="#will-the-project-involve-the-gathering-of-personal-data">5.1.Will the project involve the gathering of personal data?</a></li>
+  <li><a href="#accessibility-and-e-accessibility-how-do-you-ensure-the-flexible-usability-and-accessibility-of-the-learning-media-and-materials-created-in-the-project-max-ca.-265300-words" id="toc-accessibility-and-e-accessibility-how-do-you-ensure-the-flexible-usability-and-accessibility-of-the-learning-media-and-materials-created-in-the-project-max-ca.-265300-words" class="nav-link" data-scroll-target="#accessibility-and-e-accessibility-how-do-you-ensure-the-flexible-usability-and-accessibility-of-the-learning-media-and-materials-created-in-the-project-max-ca.-265300-words">5.2 Accessibility and e-Accessibility: How do you ensure the flexible usability and accessibility of the learning media and materials created in the project? (max ca. 265/300 words)</a></li>
+  </ul></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">6. Funding</a>
+  <ul class="collapse">
+  <li><a href="#personnel-funds" id="toc-personnel-funds" class="nav-link" data-scroll-target="#personnel-funds">6.1 Personnel funds</a></li>
+  <li><a href="#consumables" id="toc-consumables" class="nav-link" data-scroll-target="#consumables">6.2 Consumables</a></li>
+  <li><a href="#innovedum-funds-per-student-kfr" id="toc-innovedum-funds-per-student-kfr" class="nav-link" data-scroll-target="#innovedum-funds-per-student-kfr">6.3. Innovedum funds per student (kFr)</a></li>
+  <li><a href="#innovedum-funds-applied-for-kfr" id="toc-innovedum-funds-applied-for-kfr" class="nav-link" data-scroll-target="#innovedum-funds-applied-for-kfr">6.4. Innovedum funds applied for (kFr)</a></li>
+  </ul></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
+  <ul class="collapse">
+  <li><a href="#appendix-1" id="toc-appendix-1" class="nav-link" data-scroll-target="#appendix-1">Appendix 1</a></li>
+  <li><a href="#appendix-2" id="toc-appendix-2" class="nav-link" data-scroll-target="#appendix-2">Appendix 2</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="innovedum-project-proposal-ai-teaching-learning-lschoebitz.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="innovedum-project-proposal-ai-teaching-learning-lschoebitz.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="innovedum-project-proposal-ai-teaching-learning-lschoebitz.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Innovedum proposal: AI in teaching and learning</h1>
+<p class="subtitle lead">Research Beyond the Lab &amp; Into the Future: Dancing with Data &amp; AI</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Lars Schöbitz </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 29, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="project-application-innovedum" class="level1">
+<h1>Project Application Innovedum</h1>
+<ul>
+<li>Proposalnumber:</li>
+<li>Project type: Focal Point Project</li>
+<li>Focus topic: AI in Teaching and Learning</li>
+<li>Start date: 2024-01-01</li>
+<li>End date: 2025-06-30</li>
+<li>Extended:</li>
+<li>Type of proposal</li>
+</ul>
+</section>
+<section id="project-title" class="level1">
+<h1>Project title</h1>
+<ul>
+<li>English: Research Beyond the Lab &amp; Into the Future: Dancing with Data &amp; AI</li>
+<li>German: Forschung ausserhalb des Labors &amp; in die Zukunft: Tanz mit Daten &amp; KI</li>
+</ul>
+</section>
+<section id="institute" class="level1">
+<h1>Institute</h1>
+<ul>
+<li>Institute:</li>
+<li>Department:</li>
+<li>Postal address</li>
+</ul>
+</section>
+<section id="applicants" class="level1">
+<h1>Applicants</h1>
+<ul>
+<li>Main applicant: Lars Schöbitz</li>
+<li>Project manager: Lars Schöbitz</li>
+<li>Project partner:</li>
+</ul>
+</section>
+<section id="project-summary" class="level1">
+<h1>1. Project summary</h1>
+<section id="describe-the-project-in-1-2-sentences-max.-400-characters-57-to-90-words-will-be-published-in-the-project-database" class="level2">
+<h2 class="anchored" data-anchor-id="describe-the-project-in-1-2-sentences-max.-400-characters-57-to-90-words-will-be-published-in-the-project-database">1.1. Describe the project in 1-2 sentences (max. 400 characters; 57 to 90 words; will be published in the project database)</h2>
+<section id="english" class="level3">
+<h3 class="anchored" data-anchor-id="english">English</h3>
+<p>This Innovedum project targets the responsible incorporation of Large Language Models (LLMs) in data science education. It tackles key challenges: ethical AI usage, aiding novices in programming, optimising retrieval practices for enhanced learning, and utilising LLMs in coding examinations. This project seeks to cultivate a community of practice focused on AI’s role in data science education.</p>
+</section>
+<section id="german" class="level3">
+<h3 class="anchored" data-anchor-id="german">German</h3>
+<p>Das Innovedum-Projekt fokussiert auf die Integration von LLMs in Data Science Ausbildung. Es adressiert ethische KI-Nutzung, Hilfe für Programmieranfänger, verbesserte Lernmethoden und LLM-Einsatz in Prüfungen. Ziel ist auch, eine Community of Practice zu etablieren, die KI’s Rolle in der Datenwissenschaft betont.</p>
+</section>
+</section>
+<section id="project-summary-ca.-140200-words-will-be-published-in-the-project-database." class="level2">
+<h2 class="anchored" data-anchor-id="project-summary-ca.-140200-words-will-be-published-in-the-project-database.">1.2. Project summary (ca. 140/200 words; will be published in the project database).</h2>
+<section id="english-1" class="level3">
+<h3 class="anchored" data-anchor-id="english-1">English</h3>
+<p>The Global Health Engineering group offers a course titled “Research Beyond the Lab (rbtl)”, which imparts training on out-of-lab research projects, emphasising open science principles and effective research data management.</p>
+<p>A critical component is teaching data science with the R statistical programming language. Given the advent of Large Language Models (LLMs) capable of auto-generating accurate programming solutions, there’s a need to integrate these tools responsibly into the curriculum. This Innovedum project delineates four main challenges:</p>
+<ul>
+<li>Ensuring responsible AI use</li>
+<li>Guiding novices to find answers to programming tasks</li>
+<li>Improving retrieval practice to enhance student learning</li>
+<li>Leveraging LLMs for coding exam settings</li>
+</ul>
+<p>An overarching outcome of the project is to foster collaboration with other ETH initiatives and beyond, positioning the project not merely as an educational overhaul but also as a catalyst for building a robust community of practice centred on AI in data science education.</p>
+</section>
+<section id="german-1" class="level3">
+<h3 class="anchored" data-anchor-id="german-1">German</h3>
+<p>Die Gruppe Global Health Engineering bietet einen Kurs mit dem Titel “Research Beyond the Lab (rbtl)” an, der Schulungen zu Forschungsprojekten außerhalb des Labors vermittelt und dabei die Grundsätze von Open Science und des effektiven Forschungsdatenmanagements (Research Data Management) betont.</p>
+<p>Ein wichtiger Bestandteil ist der Unterricht in Datenwissenschaft mit der statistischen Programmiersprache R. Angesichts des Aufkommens von Large Language Models (LLMs), die in der Lage sind, automatisch genaue Programmierlösungen zu generieren, besteht die Notwendigkeit, diese Werkzeuge verantwortungsvoll in den Lehrplan zu integrieren. In diesem Innovedum-Projekt werden vier wesentliche Herausforderungen beschrieben:</p>
+<ul>
+<li>Sicherstellung einer verantwortungsvollen Nutzung von KI</li>
+<li>Anleitung von Anfängern bei der Suche nach Antworten auf Programmieraufgaben</li>
+<li>Verbesserung der Abfragepraxis, um das Lernen der Studenten zu verbessern</li>
+<li>Nutzung von LLMs für Prüfungen</li>
+</ul>
+<p>Ein übergreifendes Ergebnis des Projekts ist die Förderung der Zusammenarbeit mit anderen ETH-Initiativen und darüber hinaus, wobei das Projekt nicht nur als Überholung der Ausbildung, sondern auch als Katalysator für den Aufbau einer robusten Community of Practice, die sich auf KI in der Data-Science-Ausbildung konzentriert, positioniert wird.</p>
+</section>
+</section>
+</section>
+<section id="consultation" class="level1">
+<h1>2. Consultation</h1>
+<section id="student-involvement-describe-whether-and-how-students-were-involved-in-the-preparation-and-review-of-this-project-application.-how-will-students-be-involved-in-project-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="student-involvement-describe-whether-and-how-students-were-involved-in-the-preparation-and-review-of-this-project-application.-how-will-students-be-involved-in-project-implementation">2.1. Student involvement: Describe whether and how students were involved in the preparation and review of this project application. How will students be involved in project implementation?</h2>
+<p>The project implementation will be in coordination and collaboration with students that participate in our course (rbtl: Research beyond the lab) in spring semester 2024. They will be directly involved in the project implementation and will support the evaluation process. Results will then be used for the course in spring semester 2025.</p>
+</section>
+<section id="who-advised-you-on-your-project-andor-who-gave-you-feedback-on-it-e.g.-let-educational-developers-departments-other-faculty-other" class="level2">
+<h2 class="anchored" data-anchor-id="who-advised-you-on-your-project-andor-who-gave-you-feedback-on-it-e.g.-let-educational-developers-departments-other-faculty-other">2.2. Who advised you on your project and/or who gave you feedback on it (e.g.&nbsp;LET / Educational Developer(s) / department(s) / other faculty / other)?</h2>
+<p>An initial project idea was shared with Daniela Eawason as a response to the announcement of the new focal point topic. We shared our idea with Katrin Bentel (LET) who we have been continuously in touch with about open science ideas and computational reproducibility for about 1.5 years. We then shared our project idea with Kathrin Bentel and Julia Kehl (both LET) who we met personally to discuss. Their advice was integrated into a draft proposal, which was shared once more.</p>
+<p>The draft proposal was also shared with employees of the Global Health Engineering group. Elizabeth Tilley (head of group) and Mian Zhong (Data Scientist and expert in Natural Language Processing) provided detailed feedback on the proposal.</p>
+<p>We are aware of several other initiatives around the use of AI in teaching and learning at ETH. In addition to communicating the project ideas with the Innovedum and LET teams, we will actively reach out to other professionals at ETH to contribute to building a community of practice, including Manuel Sudau, Educational Developer with LET, Dennis Kochmann at D-MAVT, Christian Franck at D-ITET, Meike Akveld &amp; Andreas Steiger at D-MATH and their product STACK, and lastly the applicants for the most recently funded Innovedum projects with a focus on exploring AI in academic writing (Lucio Isa &amp; Melanie Paschke).</p>
+</section>
+</section>
+<section id="project-description" class="level1">
+<h1>3. Project description</h1>
+<section id="starting-position-describe-the-current-situation.-what-didactic-and-disciplinary-challenges-does-your-project-address-max-324250-words.-info-show-the-relevance-of-and-the-need-leading-to-the-project.-list-if-applicable-preliminary-work-to-remedy-the-situation." class="level2">
+<h2 class="anchored" data-anchor-id="starting-position-describe-the-current-situation.-what-didactic-and-disciplinary-challenges-does-your-project-address-max-324250-words.-info-show-the-relevance-of-and-the-need-leading-to-the-project.-list-if-applicable-preliminary-work-to-remedy-the-situation.">3.1. Starting position: Describe the current situation. What didactic and disciplinary challenges does your project address? (max 324/250 words). Info: Show the relevance of and the need leading to the project. List (if applicable) preliminary work to remedy the situation.</h2>
+<p>At the Global Health Engineering group, we teach a class (rbtl: Research Beyond the Lab) on conducting a research project out of the lab and applying open science principles and effective research data management. Amongst other data science tools, students learn to use the R statistical programming language, for which we assume no prior knowledge.</p>
+<p>With the rise of Large Language Models (LLMs) and associated tools, such classes risk not providing added value to students if teachers miss out on including LLMs in their teaching. Students can now auto-generate solutions to programming assessments with high accuracy <span class="citation" data-cites="denny2023computing">(<a href="#ref-denny2023computing" role="doc-biblioref">Denny et al. 2023</a>)</span>. A structured, defined, open approach is needed to encourage students to use such tools responsibly while teachers can enhance the learning experience and increase their efficiency and productivity.</p>
+<p>This project addresses the following didactic and disciplinary challenges:</p>
+<p><strong>Challenge 1:</strong> Ensuring students use AI responsibly and effectively while developing their critical thinking, problem-solving and programming skills.</p>
+<p>We will teach students how to use AI tools and discuss the ethical implications of using LLMs in programming, including the potential for over-reliance on AI-generated solutions and the importance of developing problem-solving skills.</p>
+<p><strong>Challenge 2:</strong> Helping students navigate the overwhelming amount of information available online to receive solutions to their coding problems.</p>
+<p>LLMs have shown great potential to provide coding support from plain language descriptions. Once students know how to phrase an appropriate prompt, they will receive coherent functional examples.</p>
+<p><strong>Challenge 3:</strong> Enhancing retrieval practice, improving student learning, and enriching the learning experience in a time-constrained environment.</p>
+<p>Preparing up-to-date formative assessments and authentic examples requires much time and thought. LLMs show great potential to automate parts of this process. Additionally, AI can serve as a creative engine to prepare analogies that support students in class, further enriching the learning experience <span class="citation" data-cites="mollick2023assigning">(<a href="#ref-mollick2023assigning" role="doc-biblioref">Mollick and Mollick 2023</a>)</span>.</p>
+<p><strong>Challenge 4:</strong> Applying the knowledge and skills gained throughout the course to analyse data, draw conclusions, and demonstrate programming proficiency in a time-limited exam setting that allows for the use of LLMs.</p>
+</section>
+<section id="project-goals-list-the-concrete-project-goals.-232250-words.-info-3-to-5-clear-measurable-objectives.-please-fill-the-fields-in-german-and-english.-the-information-will-be-published-in-innovedum-public." class="level2">
+<h2 class="anchored" data-anchor-id="project-goals-list-the-concrete-project-goals.-232250-words.-info-3-to-5-clear-measurable-objectives.-please-fill-the-fields-in-german-and-english.-the-information-will-be-published-in-innovedum-public.">3.2. Project goals: List the concrete project goals. (232/250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public.</h2>
+<p>Each identified challenge is addressed by an associated work package, goal and measurable objective as presented in this public Google Sheet: https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0 and Table 1 in the Appendix.</p>
+<p>We identified two to three specific activities per objective, which are presented in this public Google Sheet: https://docs.google.com/spreadsheets/d/1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM/edit#gid=0 and Table 2 in the Appendix.</p>
+<section id="wp1---responsible-ai-use" class="level3">
+<h3 class="anchored" data-anchor-id="wp1---responsible-ai-use">WP1 - Responsible AI use</h3>
+<p><strong>Goal:</strong> Integrate Large Language Models (LLMs) into lectures and require it as a mandatory tool in class.</p>
+<p><strong>Objective 1:</strong> Within 12 months after the start of the project, a usage policy for LLMs and an associated teaching module is being re-used by other classes at ETH or beyond.</p>
+</section>
+<section id="wp2---ai-as-a-tutor" class="level3">
+<h3 class="anchored" data-anchor-id="wp2---ai-as-a-tutor">WP2 - AI as a Tutor</h3>
+<p><strong>Goal:</strong> Use LLMs to provide code examples and support novices to find answers to programming tasks.</p>
+<p><strong>Objective 2:</strong> Ensure that 95% of AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.</p>
+</section>
+<section id="wp3---enhance-learning" class="level3">
+<h3 class="anchored" data-anchor-id="wp3---enhance-learning">WP3 - Enhance Learning</h3>
+<p><strong>Goal:</strong> Use LLMs to create low-stakes tests for formative assessments (faded examples/scaffolding, Parsons problems, multiple choice quizzes).</p>
+<p><strong>Objective 1:</strong> Reduce the required time for generating formative assessments for R programming concepts by 90%.</p>
+</section>
+<section id="wp4---student-assesment" class="level3">
+<h3 class="anchored" data-anchor-id="wp4---student-assesment">WP4 - Student Assesment</h3>
+<p><strong>Goal:</strong> Develop a technical programming exam that allows students to use LLMs.</p>
+<p><strong>Objective 1:</strong> Achieve a grade distribution in the final exam where at least 80% of the students score between 5 and 6, with no more than 10% scoring the maximum grade of 6.</p>
+</section>
+</section>
+<section id="project-progression-describe-the-progression-of-the-project-288300-words.-info-box-describe-the-different-phases-of-the-project." class="level2">
+<h2 class="anchored" data-anchor-id="project-progression-describe-the-progression-of-the-project-288300-words.-info-box-describe-the-different-phases-of-the-project.">3.3. Project progression: Describe the progression of the project (288/300 words). Info box: Describe the different phases of the project.</h2>
+<p>We present a rough timeline for project activities in Table 2 of the Appendix. This timeline translates into five project phases.</p>
+<section id="phase-0---before-project-funding" class="level3">
+<h3 class="anchored" data-anchor-id="phase-0---before-project-funding">Phase 0 - before project funding</h3>
+<p>We implement this project in a course we teach in Spring Semester 2024 (rbtl-fs24). Therefore, it is essential to include information about the usage of AI in the course catalogue now. Students need to be aware of the usage of AI.</p>
+</section>
+<section id="phase-1---human-resources-and-choice-of-ai-tools" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1---human-resources-and-choice-of-ai-tools">Phase 1 - human resources and choice of AI tools</h3>
+<p>The project’s first phase will identify a suitable candidate (Scientific Assistant) to support the project during the development and implementation phases. Further, we will make the exact choice of AI tools during this phase. Our current thinking is to ask students to use free versions of Perplexity (perplexity.ai), an AI tool that allows for free GPT-4 LLM usage.</p>
+</section>
+<section id="phase-2---development-of-course-material" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2---development-of-course-material">Phase 2 - development of course material</h3>
+<p>While the syllabus and overall objectives for each module of the class will be defined at the before the start of the course in February 2024, we will prepare the class material flexibly, allowing for the inclusion of learnings from the use of AI.</p>
+</section>
+<section id="phase-3---evaluation-and-dissemination" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3---evaluation-and-dissemination">Phase 3 - evaluation and dissemination</h3>
+<p>After the course is completed, the project team will analyse and compile all materials that were generated as part of the work packages. We will analyse student evaluation surveys and present results to the scientific community.</p>
+</section>
+<section id="phase-4---integration-of-learning-into-future-course-material" class="level3">
+<h3 class="anchored" data-anchor-id="phase-4---integration-of-learning-into-future-course-material">Phase 4 - integration of learning into future course material</h3>
+<p>As a final phase, the learnings from the project will be integrated into material for the next class in Spring Term 2025 (rbtl-fs25) and other courses that teach programming concepts.</p>
+</section>
+</section>
+<section id="timetable-and-milestones" class="level2">
+<h2 class="anchored" data-anchor-id="timetable-and-milestones">3.4. Timetable and milestones</h2>
+<p>TODO: Add in online form.</p>
+</section>
+<section id="teachinglearning-concept-explain-the-didactic-principles-e.g.-experiences-theories-and-methods-which-underpin-your-project.-279300-words.-explain-the-didactic-methodology-that-underpins-the-project.-this-can-be-your-own-experience-of-that-of-other-lectures-of-didactic-theories-and-methods-from-the-literature." class="level2">
+<h2 class="anchored" data-anchor-id="teachinglearning-concept-explain-the-didactic-principles-e.g.-experiences-theories-and-methods-which-underpin-your-project.-279300-words.-explain-the-didactic-methodology-that-underpins-the-project.-this-can-be-your-own-experience-of-that-of-other-lectures-of-didactic-theories-and-methods-from-the-literature.">3.5. Teaching/Learning concept: Explain the didactic principles (e.g.&nbsp;experiences, theories and methods) which underpin your project. (279/300 words). Explain the didactic methodology that underpins the project. This can be your own experience (of that of other lectures) of didactic theories and methods from the literature.</h2>
+<p>The idea of using AI to help students with coding problems in R is based on the premise that novices in programming struggle to find help online, and AI tools can provide better code examples if students are taught how to use the relevant prompts. Several didactic theories and methods underpin this idea:</p>
+<ol type="1">
+<li><p><strong>Co-creation and collaboration</strong>: Co-creation in AI-assisted learning involves students working with AI tools to solve problems and learn new concepts. This approach has been explored in studies such as the one on AI-generated programming code in higher education <span class="citation" data-cites="jonsson2022cracking">(<a href="#ref-jonsson2022cracking" role="doc-biblioref">Jonsson and Tholander 2022</a>)</span>. The study found that AI tools can facilitate understanding and learning while improving the creative processes by promoting reflection and through the exploration of alternative solutions. These findings align with the didactic theory of constructivism, which emphasises that learners actively construct their understanding and knowledge through experiences and interactions.</p></li>
+<li><p><strong>Personalised learning</strong>: AI tools can offer personalised learning experiences by adapting to individual students’ needs, preferences, and learning styles. This approach is supported by the idea that learners have different ways of processing information and that tailored instruction can lead to better learning outcomes <span class="citation" data-cites="kaiss2023effectiveness">(<a href="#ref-kaiss2023effectiveness" role="doc-biblioref">Kaiss, Mansouri, and Poirier 2023</a>)</span>. The approach is connected to self-determination theory, which defines three drivers of intrinsic motivation (competence, autonomy, relatedness), all positively impacted by personalised learning.</p></li>
+<li><p><strong>Connectivism:</strong> Within the classroom, we will engage and interact with the AI tools as a class, in small groups, and individually. The newest feature of Perplexity allows people to have shared Collections of prompt threads. It enables people to craft prompts together, share them with others, and make them public. This practice is supported by the theory of connectivism, which emphasises the importance of networks, social interactions, and the use of technology in the learning process.</p></li>
+</ol>
+</section>
+<section id="target-groups" class="level2">
+<h2 class="anchored" data-anchor-id="target-groups">3.6. Target group(s)</h2>
+<ul>
+<li>done in online form</li>
+</ul>
+</section>
+<section id="effects-of-the-project-describe-the-innovative-aspects-of-your-project-and-describe-its-expected-effects-and-added-value-for-teaching-and-learning-at-eth-for-all-of-the-following-167250-words.-these-aspects-should-be-different-from-the-normal-advancement-of-teaching.-further-benefits-and-effects-can-also-be-listed-here." class="level2">
+<h2 class="anchored" data-anchor-id="effects-of-the-project-describe-the-innovative-aspects-of-your-project-and-describe-its-expected-effects-and-added-value-for-teaching-and-learning-at-eth-for-all-of-the-following-167250-words.-these-aspects-should-be-different-from-the-normal-advancement-of-teaching.-further-benefits-and-effects-can-also-be-listed-here.">3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (167/250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.</h2>
+<p>Beyond the measurable objectives, the over-arching effect of this project will be to shift the culture around AI from shame and secrecy to one that promotes and embraces the practical and enjoyable aspects of this emerging technology. Through this project, we will demonstrate to educators (who may still be sceptical) that AI has a place in teaching and that it allows students and teachers to spend more time learning, discussing, and engaging and less time searching and running failed code.</p>
+<section id="students" class="level3">
+<h3 class="anchored" data-anchor-id="students">Students</h3>
+<ul>
+<li>being aware of the limitations of using AI</li>
+<li>being aware of the responsibility for using AI and critically evaluating all its output</li>
+<li>learning how to use AI for learning a new programming language</li>
+<li>learning how to use AI for debugging code</li>
+</ul>
+</section>
+<section id="faculty" class="level3">
+<h3 class="anchored" data-anchor-id="faculty">Faculty</h3>
+<ul>
+<li>learning how to use AI to deliver more engaging classes</li>
+<li>demonstrating the time-saving benefits related to assignment and exam preparation</li>
+</ul>
+</section>
+<section id="the-entire-degree-programme" class="level3">
+<h3 class="anchored" data-anchor-id="the-entire-degree-programme">The entire degree programme</h3>
+<ul>
+<li>learning how to use AI</li>
+<li>embracing a culture of AI use</li>
+<li>belonging to a community of practice for use of AI in teaching and learning</li>
+</ul>
+</section>
+</section>
+<section id="evaluation-strategy-describe-the-evaluation-strategy-you-will-use-to-check-achievement-of-project-goals-see-3.2-and-effects-on-teaching-see-3.7.-250-words" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation-strategy-describe-the-evaluation-strategy-you-will-use-to-check-achievement-of-project-goals-see-3.2-and-effects-on-teaching-see-3.7.-250-words">3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)</h2>
+<ul>
+<li>What approaches will you use?</li>
+<li>Are you planning measures for identifying interim results? If so, how will these results flow back into the project?</li>
+</ul>
+<p>To verify the achievement of project goals and related objectives, we will work with Nore Dietmann from LET to support us in developing a student evaluation survey that explicitly targets ‘WP1 Responsible AI use’, and ‘WP2 AI as a Tutor’. We will implement one survey after teaching the 3-hour AI module, another survey at the end of the course, and a follow-up survey six months after course completion. In combination, these three surveys will help identify student satisfaction, improve course material, and ensure that the expected innovative effects are taking place.</p>
+<p>We will receive interim results throughout the entire implementation phase, as students are explicitly asked to share their prompts and critically reflect on their usage. This process will allow results to flow back into the project as it is implemented. It is an interactive exercise and dialogue with participating students as they are using the AI tools.</p>
+<p>As presented in Section 3.2, the defined objectives have a measurable outcome. We will use them to evaluate if the objectives were achieved. The evaluation results will be used to design activities for the continuation and iteration of the project.</p>
+</section>
+<section id="project-staff-employees-or-students-involved-in-the-project-and-their-roles" class="level2">
+<h2 class="anchored" data-anchor-id="project-staff-employees-or-students-involved-in-the-project-and-their-roles">3.9. Project staff: Employees or students involved in the project and their roles</h2>
+<p>Add in online form.</p>
+</section>
+</section>
+<section id="sustainability-and-dissemination" class="level1">
+<h1>4.Sustainability and dissemination</h1>
+<section id="sustainability-how-will-project-results-be-maintained-and-utilised-after-the-funding-period-what-project-results-can-prospectively-be-utilised-within-eth-do-you-need-additional-funding-for-this-265300-words" class="level2">
+<h2 class="anchored" data-anchor-id="sustainability-how-will-project-results-be-maintained-and-utilised-after-the-funding-period-what-project-results-can-prospectively-be-utilised-within-eth-do-you-need-additional-funding-for-this-265300-words">4.1.Sustainability: How will project results be maintained and utilised after the funding period? What project results can prospectively be utilised within ETH? Do you need additional funding for this? (265/300 words)</h2>
+<p>During the funding period, the project will be implemented twice within the same class (rbtl-fs24 and rbtl-fs25), and evaluated in collaboration with LET. For this, we will work with Nora Dietmann, who will support us in developing a student evaluation survey that explicitly targets the project’s objectives. The evaluation results will feed back into re-development course material, implemented and evaluated once again with our rbtl-fs-25 cohort of students.</p>
+<p>We will actively communicate project progress and results to the ETH community and beyond using several media types and fora (see Section 4.2 Project communication). The project material is published as Open Educational Material with permissive licences and in an adaptable and reusable format (see Section 4.2 Project Communication &amp; Section 5.2 Accessibility and e-Accessibility).</p>
+<p>This project will last 18 months, and we aim to apply for another Innovedum focal point project on March 1st 2025, which will ensure the mid-term continuation of the project for another 18 months from July 2025 to December 2025. The objectives of this second round of funding will primarily focus on rolling out developed modules with identified partners at ETH (e.g., the Computational Competencies initiative, Data Stewardship Network).</p>
+<p>Beyond these three years, the utilisation of project results and long-term maintenance will be ensured by the fact that the project lead, Lars Schöbitz, holds a permanent contract at the Global Health Engineering research group at D-MAVT. He is not a researcher but holds the position of an administrative technical assistant (Open Science Specialist &amp; Data Steward). The research group is committed to the long-term continuation and scale-up of courses related to this project.</p>
+</section>
+<section id="project-communication-how-do-you-plan-to-publicise-and-document-the-progress-of-the-project-what-form-will-the-final-report-for-the-innovedum-project-database-take-how-will-you-disseminate-project-results-308300-words.-info-interested-eth-members-should-be-able-to-gain-insight-into-the-project-and-the-results.-how-do-you-ensure-this" class="level2">
+<h2 class="anchored" data-anchor-id="project-communication-how-do-you-plan-to-publicise-and-document-the-progress-of-the-project-what-form-will-the-final-report-for-the-innovedum-project-database-take-how-will-you-disseminate-project-results-308300-words.-info-interested-eth-members-should-be-able-to-gain-insight-into-the-project-and-the-results.-how-do-you-ensure-this">4.2. Project communication: How do you plan to publicise and document the progress of the project? What form will the final report for the Innovedum project database take? How will you disseminate project results? (308/300 words). Info: Interested ETH members should be able to gain insight into the project and the results. How do you ensure this?</h2>
+<p>This proposal, progress updates and project outputs will be published on GitHub with open and permissive licences as they are developed.</p>
+<p>Each course we teach has a public website with access to all course materials. In addition, we will develop a project-dedicated website to highlight unique aspects of the project, and will share a final report in an accessible and interactive format. We will also share this report in the Innovedum public project database.</p>
+<p>The project team is part of several networks and committees related to open science and data stewardship. We will use these established networks to take the opportunity to present the project at a minimum of two hosted events (ETH Library Data Stewardship Network, Swiss Reproducibility Network Working Groups).</p>
+<p>We will share our first experiences at and contribute to the Innovation Learning &amp; Teaching Fair 2024. “Refresh Teaching” is another platform and event for which we will prepare material to reach an even broader community.</p>
+<p>As part of our openwashdata project that is supported by the Open Research Data Program of the ETH Board, we send a monthly newsletter to 110 (5% growth/week) people who are interested in applying open data practices in the greater water, sanitation, and hygiene (WASH) sector. Still, we will also highlight this project as it aligns with our overall mission to empower learners of all levels to engage with open data practices. This work will undoubtedly resonate with many members of the community.</p>
+<p>We maintain an active LinkedIn account where we frequently highlight the work of our students and our teaching; we will dedicate a series of posts to this project, associated courses, and the links to the Innovedum programme.</p>
+<p>Recently, we started to host a blog on our GHE website with monthly posts. We will dedicate several blog posts to this work, especially after course completion, when we have quantitative data and personal testimonials to report.</p>
+</section>
+</section>
+<section id="data-gathering-and-administration" class="level1">
+<h1>5. Data gathering and administration</h1>
+<section id="will-the-project-involve-the-gathering-of-personal-data" class="level2">
+<h2 class="anchored" data-anchor-id="will-the-project-involve-the-gathering-of-personal-data">5.1.Will the project involve the gathering of personal data?</h2>
+<p>No</p>
+</section>
+<section id="accessibility-and-e-accessibility-how-do-you-ensure-the-flexible-usability-and-accessibility-of-the-learning-media-and-materials-created-in-the-project-max-ca.-265300-words" class="level2">
+<h2 class="anchored" data-anchor-id="accessibility-and-e-accessibility-how-do-you-ensure-the-flexible-usability-and-accessibility-of-the-learning-media-and-materials-created-in-the-project-max-ca.-265300-words">5.2 Accessibility and e-Accessibility: How do you ensure the flexible usability and accessibility of the learning media and materials created in the project? (max ca. 265/300 words)</h2>
+<p>As open science advocates, we will publish all learning media and materials as open educational resources. These resources play a vital role in ensuring flexible usability and accessibility, allowing for the customization and adaptation of content to suit various teaching styles and students’ preferences. For instance, our public course website is developed with Quarto open-source scientific and technical publishing system. The underlying code is hosted as a GitHub repository using permissive licences for all material (e.g.&nbsp;CC-BY-40, MIT License), offering educators a platform to access, modify, share and contribute to educational materials.</p>
+<p>We will address all essential e-Accessibility features in our learning materials. (1) Flexible Output: our course website and hosted material will be available in HTML file format, allowing for the customization of materials in a variety of ways, responsive design, and custom styles. (2) Flexible input: ensured by our course website, all content will be reachable using the computer mouse and keyboard. (3) Information &amp; Semantics: Our website will not contain scripted interactive components but will be provided in native HTML and hosted as a static website, ensuring the correct interpretation of content by screen readers. (4) Images and Multimedia: Every used image, prepared diagram, or visualisation will be prepared using the alternative text attribute in HTML. We will use decision-making support, such as the Alt-text-Decision-Tree of the Web Accessibility Initiative (WAI), to assess whether the provided text is meaningful and purposeful. We will contact experts at ETH (Anton Bolfing) to check the correctness of alternative texts. (5) Colours and Contrast: We will use colorblind-friendly colour palettes in our design and tools to ensure high contrast (e.g.&nbsp;colourcontrast.cc).</p>
+</section>
+</section>
+<section id="funding" class="level1">
+<h1>6. Funding</h1>
+<section id="personnel-funds" class="level2">
+<h2 class="anchored" data-anchor-id="personnel-funds">6.1 Personnel funds</h2>
+</section>
+<section id="consumables" class="level2">
+<h2 class="anchored" data-anchor-id="consumables">6.2 Consumables</h2>
+</section>
+<section id="innovedum-funds-per-student-kfr" class="level2">
+<h2 class="anchored" data-anchor-id="innovedum-funds-per-student-kfr">6.3. Innovedum funds per student (kFr)</h2>
+</section>
+<section id="innovedum-funds-applied-for-kfr" class="level2">
+<h2 class="anchored" data-anchor-id="innovedum-funds-applied-for-kfr">6.4. Innovedum funds applied for (kFr)</h2>
+<p>60’000.</p>
+<div style="page-break-after: always;"></div>
+</section>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<section id="appendix-1" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-1">Appendix 1</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<caption>Table 1: Project work packages along four identified didactic and discplinarydisciplinary challenges with associated project goals and objectives.</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 38%">
+<col style="width: 25%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">wp</th>
+<th style="text-align: left;">challenge</th>
+<th style="text-align: left;">goal</th>
+<th style="text-align: left;">objective</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">WP1 - Responsible AI use</td>
+<td style="text-align: left;">Ensuring students use AI responsibly and effectively while developing their critical thinking, problem-solving and programming skills.</td>
+<td style="text-align: left;">Integrate Large Language Models (LLMs) into lectures and require it as a mandatory tool in class.</td>
+<td style="text-align: left;">Within 12 months after the start of the project, a usage policy for LLMs and an associated teaching module is being re-used by other classes at ETH or beyond.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WP2 - AI as a Tutor</td>
+<td style="text-align: left;">Helping students navigate the overwhelming amount of information available online to receive solutions to their coding problems.</td>
+<td style="text-align: left;">Use LLMs to provide code examples and support novices to find answers to programming tasks.</td>
+<td style="text-align: left;">Ensure that 95% of AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">WP3 - Enhance Learning</td>
+<td style="text-align: left;">Enhancing retrieval practice, improving student learning, and enriching the learning experience in a time-constrained environment.</td>
+<td style="text-align: left;">Use LLMs to create low-stakes tests for formative assessments (faded examples/scaffolding, Parsons problems, multiple choice quizzes).</td>
+<td style="text-align: left;">Reduce the required time for generating formative assessments for R programming concepts by 90%.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">WP4 - Student Assesment</td>
+<td style="text-align: left;">Applying the knowledge and skills gained throughout the course to analyse data, draw conclusions, and demonstrate programming proficiency in a time-limited exam setting that allows for the use of LLMs.</td>
+<td style="text-align: left;">Develop a technical programming exam that allows students to use LLMs.</td>
+<td style="text-align: left;">Achieve a grade distribution in the final exam where at least 80% of the students score between 5 and 6, with no more than 10% scoring the maximum grade of 6.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+</section>
+<section id="appendix-2" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-2">Appendix 2</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<caption>Table 2: Project objectives with defined activities and timeline for implementation.</caption>
+<colgroup>
+<col style="width: 0%">
+<col style="width: 40%">
+<col style="width: 1%">
+<col style="width: 51%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+<col style="width: 0%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">id</th>
+<th style="text-align: left;">objective</th>
+<th style="text-align: right;">act_id</th>
+<th style="text-align: left;">activity</th>
+<th style="text-align: left;">Q1</th>
+<th style="text-align: left;">Q2</th>
+<th style="text-align: left;">Q3</th>
+<th style="text-align: left;">Q4</th>
+<th style="text-align: left;">Q5</th>
+<th style="text-align: left;">Q6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Within 12 months after the start of the project, a usage policy for LLMs and an associated teaching module is being re-used by other classes at ETH or beyond.</td>
+<td style="text-align: right;">1.1</td>
+<td style="text-align: left;">Develop a 3-hour module introducing LLMs for software development, ethical considerations and prompting AI for different use cases.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Within 12 months after the start of the project, a usage policy for LLMs and an associated teaching module is being re-used by other classes at ETH or beyond.</td>
+<td style="text-align: right;">1.2</td>
+<td style="text-align: left;">Develop a usage policy that makes students aware of the limitations of LLMs and equires students to share links to their prompts and critically reflect on the usage of AI for each assessment.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Within 12 months after the start of the project, a usage policy for LLMs and an associated teaching module is being re-used by other classes at ETH or beyond.</td>
+<td style="text-align: right;">1.3</td>
+<td style="text-align: left;">Establish a community of practice for using AI in teaching and learning using the chat server based on the matrix protocol offered by ETH.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Ensure that 95% of AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: left;">Create a collection of 60 problem statements (20 for each level of complexity: low, medium, high) for R programming tasks, along with their respective AI prompts.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Ensure that 95% of AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.</td>
+<td style="text-align: right;">2.2</td>
+<td style="text-align: left;">Identify an appropriate format to publish problem statements and prompts under an open and permissive licence as a prompt library.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Ensure that 95% of AI-generated code examples and solutions are accurate, relevant, and helpful for novice programmers.</td>
+<td style="text-align: right;">2.3</td>
+<td style="text-align: left;">Conduct a student survey prior to the class to identify students’ prior knowledge in the R programming language and programming in general.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Reduce the required time for generating formative assessments for R programming concepts by 90%.</td>
+<td style="text-align: right;">3.1</td>
+<td style="text-align: left;">For each class module that teaches R programming concepts, use LLMs to design a formative assessments with a minimum of 10 in total.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Reduce the required time for generating formative assessments for R programming concepts by 90%.</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: left;">Write five formative assessments without the support of LLMs and compare the time requirements to those prepared with the support of AI.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Reduce the required time for generating formative assessments for R programming concepts by 90%.</td>
+<td style="text-align: right;">3.3</td>
+<td style="text-align: left;">Write tutorials using the learnR R package for developed formative assessments (minimum 10 in total) and publish learnR tutorials as open-source code through GitHub using open and permissive licenses.</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Achieve a grade distribution in the final exam where at least 80% of the students score between 5 and 6, with no more than 10% scoring the maximum grade of 6.</td>
+<td style="text-align: right;">4.1</td>
+<td style="text-align: left;">Create a set of 10-15 exam questions that cover a range of R programming concepts, techniques, and LLM applications, ensuring that at least 80% of the course material is represented in the questions.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">Achieve a grade distribution in the final exam where at least 80% of the students score between 5 and 6, with no more than 10% scoring the maximum grade of 6.</td>
+<td style="text-align: right;">4.2</td>
+<td style="text-align: left;">Develop a grading rubric with clear criteria for assessing students’ programming proficiency, problem-solving skills, and LLM usage.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="references" class="level1 unnumbered">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-denny2023computing" class="csl-entry" role="listitem">
+Denny, Paul, James Prather, Brett A. Becker, James Finnie-Ansley, Arto Hellas, Juho Leinonen, Andrew Luxton-Reilly, Brent N. Reeves, Eddie Antonio Santos, and Sami Sarsa. 2023. <span>“Computing <span>Education</span> in the <span>Era</span> of <span>Generative AI</span>.”</span> <span>arXiv</span>. <a href="https://doi.org/10.48550/arXiv.2306.02608">https://doi.org/10.48550/arXiv.2306.02608</a>.
+</div>
+<div id="ref-jonsson2022cracking" class="csl-entry" role="listitem">
+Jonsson, Martin, and Jakob Tholander. 2022. <span>“Cracking the Code: <span class="nocase">Co-coding</span> with <span>AI</span> in Creative Programming Education.”</span> In <em>Creativity and <span>Cognition</span></em>, 5–14. <span>Venice Italy</span>: <span>ACM</span>. <a href="https://doi.org/10.1145/3527927.3532801">https://doi.org/10.1145/3527927.3532801</a>.
+</div>
+<div id="ref-kaiss2023effectiveness" class="csl-entry" role="listitem">
+Kaiss, Wijdane, Khalifa Mansouri, and Franck Poirier. 2023. <span>“Effectiveness of an <span>Adaptive Learning Chatbot</span> on <span>Students</span>’ <span>Learning Outcomes Based</span> on <span>Learning Styles</span>.”</span> <em>International Journal of Emerging Technologies in Learning (iJET)</em> 18 (13): 250–61. <a href="https://doi.org/10.3991/ijet.v18i13.39329">https://doi.org/10.3991/ijet.v18i13.39329</a>.
+</div>
+<div id="ref-mollick2023assigning" class="csl-entry" role="listitem">
+Mollick, Ethan R., and Lilach Mollick. 2023. <span>“Assigning <span>AI</span>: <span>Seven Approaches</span> for <span>Students</span>, with <span>Prompts</span>.”</span> {{SSRN Scholarly Paper}}. <span>Rochester, NY</span>. <a href="https://doi.org/10.2139/ssrn.4475995">https://doi.org/10.2139/ssrn.4475995</a>.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

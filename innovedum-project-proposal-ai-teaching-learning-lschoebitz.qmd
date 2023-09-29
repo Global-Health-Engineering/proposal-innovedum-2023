@@ -40,7 +40,11 @@ write.xlsx(proj_activities, file = "tables/tbl-02-project-activities.xlsx")
 # Project title
 
 - English: 
+    - "Research Beyond the Lab: The Intersection of Open Science and Modern AI"
+    - "Research Beyond the Lab & Into the Future: Dancing with Data & AI"
 - German: 
+    - "Forschung ausserhalb des Labors: Die Schnittstelle von Open Science und moderner KI"
+    - "Forschung ausserhalb des Labors & in die Zukunft: Tanz mit Daten & KI"
 
 # Institute
 
@@ -58,19 +62,48 @@ write.xlsx(proj_activities, file = "tables/tbl-02-project-activities.xlsx")
 
 ## 1.1. Describe the project in 1-2 sentences (max. 400 characters; 57 to 90 words; will be published in the project database)
 
-TODO: Write up at the end
+### English
 
-## 1.2. Project summary (ca. 200 words; will be published in the project database).
+This Innovedum project targets the responsible incorporation of Large Language Models (LLMs) in data science education. It tackles key challenges: ethical AI usage, aiding novices in programming, optimizing retrieval practices for enhanced learning, and utilizing LLMs in coding examinations. This project seeks to cultivate a community of practice focused on AI's role in data science education.
 
-TODO: Write up at the end
+### German
+
+Das Innovedum-Projekt fokussiert auf die Integration von LLMs in Data Science Ausbildung. Es adressiert ethische KI-Nutzung, Hilfe für Programmieranfänger, verbesserte Lernmethoden und LLM-Einsatz in Prüfungen. Ziel ist auch, eine Community of Practice zu etablieren, die KI's Rolle in der Datenwissenschaft betont.
+
+
+## 1.2. Project summary (ca. 140/200 words; will be published in the project database).
+
+### English
+
+The Global Health Engineering group offers a course titled "Research Beyond the Lab (rbtl)", which imparts training on out-of-lab research projects, emphasizing open science principles and effective research data management. 
+
+A critical component is the teaching data science with the R statistical programming language. Given the advent of Large Language Models (LLMs) capable of auto-generating accurate programming solutions, there's a need to integrate these tools responsibly into the curriculum. This Innovedum project delineates four main challenges:
+
+- Ensuring responsible AI use
+- Guiding novices to find answers to programming tasks
+- Improving retrieval practice to enhance student learning
+- Leveraging LLMs for coding exam settings 
+
+An overarching outcome of the project is to foster collaboration with other ETH initiatives and beyond, positioning the project not merely as an educational overhaul but also as a catalyst for building a robust community of practice centred on AI in data science education.
+
+### German
+
+Die Gruppe Global Health Engineering bietet einen Kurs mit dem Titel "Research Beyond the Lab (rbtl)" an, der Schulungen zu Forschungsprojekten außerhalb des Labors vermittelt und dabei die Grundsätze von Open Science und des effektiven Forschungsdatenmanagements (Research Data Management) betont. 
+
+Ein wichtiger Bestandteil ist der Unterricht in Datenwissenschaft mit der statistischen Programmiersprache R. Angesichts des Aufkommens von Large Language Models (LLMs), die in der Lage sind, automatisch genaue Programmierlösungen zu generieren, besteht die Notwendigkeit, diese Werkzeuge verantwortungsvoll in den Lehrplan zu integrieren. In diesem Innovedum-Projekt werden vier wesentliche Herausforderungen beschrieben:
+
+- Sicherstellung einer verantwortungsvollen Nutzung von KI
+- Anleitung von Anfängern bei der Suche nach Antworten auf Programmieraufgaben
+- Verbesserung der Abfragepraxis, um das Lernen der Studenten zu verbessern
+- Nutzung von LLMs für Prüfungen 
+
+Ein übergreifendes Ergebnis des Projekts ist die Förderung der Zusammenarbeit mit anderen ETH-Initiativen und darüber hinaus, wobei das Projekt nicht nur als Überholung der Ausbildung, sondern auch als Katalysator für den Aufbau einer robusten Community of Practice, die sich auf KI in der Data-Science-Ausbildung konzentriert, positioniert wird.
 
 # 2. Consultation
 
 ## 2.1. Student involvement: Describe whether and how students were involved in the preparation and review of this project application. How will students be involved in project implementation?
 
-The proposal was shared with students that participated in our first class (rbtl: Research beyond the lab) in spring semester 2022 to get general feedback about elements they found difficult to understand during class. For this purpose, we also used the results of the student evaluation survey from 2022, which 13/14 students completed. 
-
-The project implementation will be in coordination and collaboration with students that participate in our class (rbtl: Research beyond the lab) in spring semester 2024. They will be directly involved in the the project implementation as they use the proposed solutions and provide interim feedback. 
+The project implementation will be in coordination and collaboration with students that participate in our course (rbtl: Research beyond the lab) in spring semester 2024. They will be directly involved in the the project implementation and will support the evaluation process. Results will then be used for the course in spring semester 2025. 
 
 ## 2.2. Who advised you on your project and/or who gave you feedback on it (e.g. LET / Educational Developer(s) / department(s) / other faculty / other)?
 
@@ -105,7 +138,7 @@ Preparing up-to-date formative assessments and authentic examples requires much 
 **Challenge 4:** Applying the knowledge and skills gained throughout the course to analyze data, draw conclusions, and demonstrate programming proficiency in a time-limited exam setting that allows for using LLMs.
 
 ## 3.2. Project goals: List the concrete project goals. (232/250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public. 
-Each identified challenge is addressed by an associated work package, goal and measurable objective as presented in [this public Google Sheet](https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0) and Table 1 in the Appendix. We identified two to three specific activities per objective, which are presented in [this public Google Sheet](https://docs.google.com/spreadsheets/d/1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM/edit#gid=0) and Table 2 in the Appendix. 
+Each identified challenge is addressed by an associated work package, goal and measurable objective as presented in this public Google Sheet: https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0 and Table 1 in the Appendix. We identified two to three specific activities per objective, which are presented in this public Google Sheet: https://docs.google.com/spreadsheets/d/1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM/edit#gid=0 and Table 2 in the Appendix. 
 
 ### WP1 - Responsible AI use
 

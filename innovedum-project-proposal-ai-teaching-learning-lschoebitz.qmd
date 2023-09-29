@@ -33,8 +33,8 @@ library(tidyverse)
 proj_goals <- read_sheet(ss = "1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI") 
 proj_activities <- read_sheet(ss = "1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM")
 
-write.xlsx(proj_goals, file = "tables/tbl-01-project-goals-and-objectives.xlsx")
-write.xlsx(proj_activities, file = "tables/tbl-02-project-activities.xlsx")
+# write.xlsx(proj_goals, file = "tables/tbl-01-project-goals-and-objectives.xlsx")
+# write.xlsx(proj_activities, file = "tables/tbl-02-project-activities.xlsx")
 
 ```
 

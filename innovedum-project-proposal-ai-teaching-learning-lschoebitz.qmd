@@ -346,5 +346,7 @@ proj_activities |>
   knitr::kable(caption = "Table 2: Project objectives with defined activities and timeline for implementation.")
 ```
 
+{{< pagebreak >}}
+
 # References
 

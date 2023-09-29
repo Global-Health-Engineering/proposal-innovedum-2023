@@ -46,11 +46,11 @@ focused on AI’s role in data science education.
 
 ### German
 
-Das Innovedum-Projekt fokussiert auf die Integration von LLMs in Data
-Science Ausbildung. Es adressiert ethische KI-Nutzung, Hilfe für
-Programmieranfänger, verbesserte Lernmethoden und LLM-Einsatz in
-Prüfungen. Ziel ist auch, eine Community of Practice zu etablieren, die
-KI’s Rolle in der Datenwissenschaft betont.
+Das Innovedum-Projekt fokussiert auf die Integration von LLMs in der
+Data Science Ausbildung. Es adressiert die ethische KI-Nutzung, Hilfe
+für Programmieranfänger, verbesserte Lernmethoden und LLM-Einsatz in
+Prüfungen. Ein übergeordnetes Ziel ist auch, eine Community of Practice
+zu etablieren, die KI’s Rolle in der Datenwissenschaft betont.
 
 ## 1.2. Project summary (ca. 140/200 words; will be published in the project database).
 
@@ -197,15 +197,16 @@ LLMs.
 
 ## 3.2. Project goals: List the concrete project goals. (232/250 words). Info: 3 to 5 clear measurable objectives. Please fill the fields in German and English. The information will be published in Innovedum Public.
 
-Each identified challenge is addressed by an associated work package,
-goal and measurable objective as presented in this public Google Sheet:
-https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0
-and Table 1 in the Appendix.
+### English
 
-We identified two to three specific activities per objective, which are
-presented in this public Google Sheet:
+Each identified challenge is addressed by an associated work package,
+goal and measurable objective as presented Table 1 in the Appendix and
+in this public Google Sheet:
+https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0
+
+We identified two to three specific activities per objectiveas presented
+Table 2 in the Appendix and in this public Google Sheet:
 https://docs.google.com/spreadsheets/d/1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM/edit#gid=0
-and Table 2 in the Appendix.
 
 ### WP1 - Responsible AI use
 
@@ -229,7 +230,7 @@ solutions are accurate, relevant, and helpful for novice programmers.
 **Goal:** Use LLMs to create low-stakes tests for formative assessments
 (faded examples/scaffolding, Parsons problems, multiple choice quizzes).
 
-**Objective 1:** Reduce the required time for generating formative
+**Objective 3:** Reduce the required time for generating formative
 assessments for R programming concepts by 90%.
 
 ### WP4 - Student Assesment
@@ -237,9 +238,57 @@ assessments for R programming concepts by 90%.
 **Goal:** Develop a technical programming exam that allows students to
 use LLMs.
 
-**Objective 1:** Achieve a grade distribution in the final exam where at
+**Objective 4:** Achieve a grade distribution in the final exam where at
 least 80% of the students score between 5 and 6, with no more than 10%
 scoring the maximum grade of 6.
+
+### German
+
+Jede identifizierte Herausforderung wird durch ein zugehöriges
+Arbeitspaket, ein Ziel und ein messbares Objective angegangen, wie in
+Tabelle 1 im Anhang und in diesem öffentlichen Google Sheet dargestellt:
+https://docs.google.com/spreadsheets/d/1srD0UPBMVknayk0ni6iOma07yHvpzAOYg3jS2KEYVOI/edit#gid=0
+
+Wir haben zwei bis drei spezifische Aktivitäten pro Objective
+festgelegt, wie in Tabelle 2 im Anhang und in diesem öffentlichen Google
+Sheet dargestellt:
+https://docs.google.com/spreadsheets/d/1ATIyMmpVnVfX8Z17WUYYu1wjMx6rNA4snTOpVj4V5hM/edit#gid=0
+
+WP1 - Verantwortungsvolle Nutzung von KI
+
+Ziel: Integration von Large Language Models (LLMs) in Vorlesungen und
+deren obligatorische Verwendung im Unterricht.
+
+Objective 1: Innerhalb von 12 Monaten nach Projektstart wird eine
+Nutzungsrichtlinie für LLMs und ein dazugehöriges Lehrmodul von anderen
+Klassen an der ETH oder darüber hinaus wiederverwendet.
+
+WP2 - KI als Tutor
+
+Ziel: Verwendung von LLMs zur Bereitstellung von Codebeispielen und zur
+Unterstützung von Anfängern bei der Lösung von Programmieraufgaben.
+
+Objective 2: Sicherstellen, dass 95% der KI-generierten Code-Beispiele
+und Lösungen korrekt, relevant und hilfreich für Programmieranfänger
+sind.
+
+WP3 - Verbessern des Lernens
+
+Ziel: Verwendung von LLMs zur Erstellung von Tests mit geringem
+Schwierigkeitsgrad für formative Beurteilungen (eingeblendete
+Beispiele/Scaffolding, Parsons-Probleme, Multiple-Choice-Tests).
+
+Objective 3: Die benötigte Zeit für die Erstellung von formativen
+Beurteilungen für R-Programmierkonzepte um 90% reduzieren.
+
+WP4 - Bewertung von Studenten
+
+Ziel: Entwicklung einer technischen Programmierprüfung, die es den
+Studenten ermöglicht, LLMs zu verwenden.
+
+Objective 4: Erreichen einer Notenverteilung in der Abschlussprüfung,
+bei der mindestens 80% der Studierenden eine Note zwischen 5 und 6
+erreichen, wobei nicht mehr als 10% die Höchstnote 6 erreichen.
 
 ## 3.3. Project progression: Describe the progression of the project (288/300 words). Info box: Describe the different phases of the project.
 
@@ -331,6 +380,8 @@ underpin this idea:
 
 ## 3.7. Effects of the project: Describe the innovative aspects of your project and describe its expected effects and added value for teaching and learning at ETH for all of the following: (167/250 words). These aspects should be different from the normal advancement of teaching. Further benefits and effects can also be listed here.
 
+### English
+
 Beyond the measurable objectives, the over-arching effect of this
 project will be to shift the culture around AI from shame and secrecy to
 one that promotes and embraces the practical and enjoyable aspects of
@@ -338,28 +389,84 @@ this emerging technology. Through this project, we will demonstrate to
 educators (who may still be sceptical) that AI has a place in teaching
 and that it allows students and teachers to spend more time learning,
 discussing, and engaging and less time searching and running failed
-code.
+code. We will address important elements such as, ethics, privacy,
+liability, or social responsibility in AI.
 
-### Students
+#### Students
 
-- being aware of the limitations of using AI
-- being aware of the responsibility for using AI and critically
+- being aware of key ethical concerns related to AI (human bias,
+  misinformation, privacy, security, etc.)
+- being aware of the limitations and of using AI
+- being aware of the responsibility for using AI and critically and
   evaluating all its output
 - learning how to use AI for learning a new programming language
 - learning how to use AI for debugging code
 
-### Faculty
+#### Faculty
+
+- - being aware of key ethical concerns related to AI (human bias,
+    misinformation, privacy, security, etc.)
 
 - learning how to use AI to deliver more engaging classes
+
 - demonstrating the time-saving benefits related to assignment and exam
   preparation
 
-### The entire degree programme
+#### The entire degree programme
 
+- being aware of key ethical concerns related to AI (human bias,
+  misinformation, privacy, security, etc.)
 - learning how to use AI
 - embracing a culture of AI use
 - belonging to a community of practice for use of AI in teaching and
   learning
+
+### German
+
+Über die messbaren Ziele hinaus wird der übergreifende Effekt dieses
+Projekts darin bestehen, die Kultur rund um KI von Scham und
+Geheimniskrämerei zu einer Kultur zu verändern, die die praktischen und
+angenehmen Aspekte dieser aufstrebenden Technologie fördert und begrüßt.
+Durch dieses Projekt werden wir Pädagogen (die vielleicht immer noch
+skeptisch sind) zeigen, dass KI einen Platz im Unterricht hat und dass
+sie es Student:innen und Lehrpersonen ermöglicht, mehr Zeit mit dem
+Lernen, Diskutieren und Engagieren zu verbringen und weniger Zeit mit
+dem Suchen und Ausführen von fehlgeschlagenem Code. Wir werden wichtige
+Aspekte wie Ethik, Datenschutz, Haftung und soziale Verantwortung im
+Zusammenhang mit KI ansprechen.
+
+#### Student:innen
+
+- sind sich der wichtigsten ethischen Bedenken im Zusammenhang mit KI
+  bewusst (menschliche Voreingenommenheit, Fehlinformationen,
+  Datenschutz, Sicherheit usw.)
+- sind sich der Grenzen und des Einsatzes von KI bewusst
+- sind sich der Verantwortung für den Einsatz von KI bewusst und
+  bewerten alle ihre Ergebnisse kritisch
+- lernen, wie man KI zum Erlernen einer neuen Programmiersprache
+  einsetzt
+- lernen, wie man KI zum Debuggen von Code einsetzt
+
+#### Fakultät
+
+- Kenntnis der wichtigsten ethischen Bedenken im Zusammenhang mit KI
+  (menschliche Voreingenommenheit, Fehlinformationen, Datenschutz,
+  Sicherheit usw.)
+- lernen, wie man KI einsetzt, um den Unterricht interessanter zu
+  gestalten
+- Demonstration der zeitsparenden Vorteile im Zusammenhang mit der
+  Vorbereitung von Aufgaben und Prüfungen
+
+#### Der gesamte Studiengang
+
+- Kenntnis der wichtigsten ethischen Bedenken im Zusammenhang mit KI
+  (menschliche Voreingenommenheit, Fehlinformationen, Datenschutz,
+  Sicherheit usw.)
+- lernen, wie man KI einsetzt
+- eine Kultur der offenen und verantwortungsvollen KI-Nutzung zu
+  schaffen
+- Zugehörigkeit zu einer Praxisgemeinschaft für den Einsatz von KI in
+  der Lehre und im Lernen
 
 ## 3.8. Evaluation strategy: Describe the evaluation strategy you will use to check achievement of project goals (see 3.2) and effects on teaching (see 3.7). (250 words)
 
@@ -556,6 +663,8 @@ objectives.
 
 Table 2: Project objectives with defined activities and timeline for
 implementation.
+
+
 
 # References
 
